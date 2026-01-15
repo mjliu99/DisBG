@@ -1,0 +1,453 @@
+[CACHE] Loading cached ADHD (topk=10)
+[DATA] Train/Dev/Test = 551/62/154
+[WARMUP] Freeze maskers for first 10 epochs (true freeze + opt rebuild).
+[DBG][ep=000] disease_pos_weight=1.0000 mode=none
+[DBG][ep=000] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=000] mask(step0): mc_mean=0.5349 mb_mean=0.4976 norm_overlap=1.0002 corr_cb=0.1404 topkJ=0.0517
+[TRAIN][ep=000] loss=0.6920 acc=52.09%
+[TRAIN][ep=000] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1977
+[WARMUP][ep=000] train_acc=52.09% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=001] disease_pos_weight=1.0000 mode=none
+[DBG][ep=001] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=001] mask(step0): mc_mean=0.5368 mb_mean=0.4975 norm_overlap=1.0003 corr_cb=0.2231 topkJ=0.0404
+[TRAIN][ep=001] loss=0.6780 acc=63.70%
+[TRAIN][ep=001] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1971
+[WARMUP][ep=001] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=002] disease_pos_weight=1.0000 mode=none
+[DBG][ep=002] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=002] mask(step0): mc_mean=0.5348 mb_mean=0.4998 norm_overlap=1.0002 corr_cb=0.2074 topkJ=0.0927
+[TRAIN][ep=002] loss=0.6685 acc=63.70%
+[TRAIN][ep=002] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1997
+[WARMUP][ep=002] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=003] disease_pos_weight=1.0000 mode=none
+[DBG][ep=003] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=003] mask(step0): mc_mean=0.5381 mb_mean=0.4986 norm_overlap=1.0002 corr_cb=0.1970 topkJ=0.0537
+[TRAIN][ep=003] loss=0.6628 acc=63.70%
+[TRAIN][ep=003] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.2013
+[WARMUP][ep=003] train_acc=63.70% | val_acc=64.52% val_f1=8.33%
+[DBG][ep=004] disease_pos_weight=1.0000 mode=none
+[DBG][ep=004] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=004] mask(step0): mc_mean=0.5368 mb_mean=0.4972 norm_overlap=1.0002 corr_cb=0.1541 topkJ=0.0549
+[TRAIN][ep=004] loss=0.6593 acc=63.70%
+[TRAIN][ep=004] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1991
+[WARMUP][ep=004] train_acc=63.70% | val_acc=64.52% val_f1=8.33%
+[DBG][ep=005] disease_pos_weight=1.0000 mode=none
+[DBG][ep=005] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=005] mask(step0): mc_mean=0.5357 mb_mean=0.4968 norm_overlap=1.0004 corr_cb=0.2642 topkJ=0.0462
+[TRAIN][ep=005] loss=0.6575 acc=63.70%
+[TRAIN][ep=005] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1989
+[WARMUP][ep=005] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=006] disease_pos_weight=1.0000 mode=none
+[DBG][ep=006] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=006] mask(step0): mc_mean=0.5328 mb_mean=0.4985 norm_overlap=1.0005 corr_cb=0.3108 topkJ=0.0475
+[TRAIN][ep=006] loss=0.6560 acc=63.70%
+[TRAIN][ep=006] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1983
+[WARMUP][ep=006] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=007] disease_pos_weight=1.0000 mode=none
+[DBG][ep=007] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=007] mask(step0): mc_mean=0.5345 mb_mean=0.4999 norm_overlap=1.0003 corr_cb=0.2308 topkJ=0.0479
+[TRAIN][ep=007] loss=0.6554 acc=63.70%
+[TRAIN][ep=007] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1989
+[WARMUP][ep=007] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=008] disease_pos_weight=1.0000 mode=none
+[DBG][ep=008] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=008] mask(step0): mc_mean=0.5369 mb_mean=0.4978 norm_overlap=1.0003 corr_cb=0.2408 topkJ=0.1238
+[TRAIN][ep=008] loss=0.6543 acc=63.70%
+[TRAIN][ep=008] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1963
+[WARMUP][ep=008] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+[DBG][ep=009] disease_pos_weight=1.0000 mode=none
+[DBG][ep=009] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=009] mask(step0): mc_mean=0.5365 mb_mean=0.4970 norm_overlap=1.0002 corr_cb=0.1550 topkJ=0.0402
+[TRAIN][ep=009] loss=0.6534 acc=63.70%
+[TRAIN][ep=009] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1962
+[WARMUP][ep=009] train_acc=63.70% | val_acc=62.90% val_f1=0.00%
+================= FIT START (fold=0) =================
+[CFG] epochs=90 warmup=5 patience=30 fixed_thr=0.5 select_by=val_score_bestthr | eval_thr_mode=best_acc eval_thr_grid=coarse | disease_pos_weight_mode=none freeze_b_after=15 | two_stage=True stage1_ratio=0.35 stage2_lr_mult=0.3 | adaptive_schedule=True
+[DBG][ep=000] disease_pos_weight=1.0000 mode=none
+[DBG][ep=000] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=000] mask(step0): mc_mean=0.5366 mb_mean=0.4985 norm_overlap=1.0003 corr_cb=0.2288 topkJ=0.0752
+[TRAIN][ep=000] loss=0.6533 acc=63.70%
+[TRAIN][ep=000] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1964
+[EPOCH 000/089] train: loss=0.6533 acc=63.70% | val: loss=0.6620 acc=62.90% f1=0.00% auc=45.93% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.140, w_sup=0.090, w_csuf=0.090, stage2=False) | mask(mc=0.535, mb=0.498, no=1.000, corr=0.196) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=* -1000000000000000000.0000 -> 62.9032
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=001] disease_pos_weight=1.0000 mode=none
+[DBG][ep=001] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=001] mask(step0): mc_mean=0.5369 mb_mean=0.4974 norm_overlap=1.0004 corr_cb=0.2453 topkJ=0.0634
+[TRAIN][ep=001] loss=0.6520 acc=63.70%
+[TRAIN][ep=001] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1996
+[EPOCH 001/089] train: loss=0.6520 acc=63.70% | val: loss=0.6617 acc=62.90% f1=0.00% auc=46.60% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.180, w_sup=0.130, w_csuf=0.130, stage2=False) | mask(mc=0.535, mb=0.498, no=1.000, corr=0.200) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=002] disease_pos_weight=1.0000 mode=none
+[DBG][ep=002] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=002] mask(step0): mc_mean=0.5351 mb_mean=0.4971 norm_overlap=1.0001 corr_cb=0.1266 topkJ=0.0964
+[TRAIN][ep=002] loss=0.6512 acc=63.70%
+[TRAIN][ep=002] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1971
+[EPOCH 002/089] train: loss=0.6512 acc=63.70% | val: loss=0.6614 acc=62.90% f1=0.00% auc=46.93% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.220, w_sup=0.170, w_csuf=0.170, stage2=False) | mask(mc=0.535, mb=0.498, no=1.000, corr=0.197) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=003] disease_pos_weight=1.0000 mode=none
+[DBG][ep=003] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=003] mask(step0): mc_mean=0.5365 mb_mean=0.4975 norm_overlap=1.0004 corr_cb=0.3154 topkJ=0.1138
+[TRAIN][ep=003] loss=0.6505 acc=63.70%
+[TRAIN][ep=003] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1986
+[EPOCH 003/089] train: loss=0.6505 acc=63.70% | val: loss=0.6608 acc=62.90% f1=0.00% auc=47.38% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.260, w_sup=0.210, w_csuf=0.200, stage2=False) | mask(mc=0.535, mb=0.498, no=1.000, corr=0.199) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=004] disease_pos_weight=1.0000 mode=none
+[DBG][ep=004] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=004] mask(step0): mc_mean=0.5363 mb_mean=0.4999 norm_overlap=1.0001 corr_cb=0.1467 topkJ=0.0543
+[TRAIN][ep=004] loss=0.6496 acc=63.70%
+[TRAIN][ep=004] mask_avg: mc_mean=0.5355 mb_mean=0.4983 norm_overlap=1.0002 corr_cb=0.1969
+[EPOCH 004/089] train: loss=0.6496 acc=63.70% | val: loss=0.6606 acc=62.90% f1=0.00% auc=47.94% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.300, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.535, mb=0.498, no=1.000, corr=0.197) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=005] disease_pos_weight=1.0000 mode=none
+[DBG][ep=005] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=005] mask(step0): mc_mean=0.5356 mb_mean=0.4964 norm_overlap=1.0002 corr_cb=0.1617 topkJ=0.0379
+[TRAIN][ep=005] loss=1.3598 acc=63.70%
+[TRAIN][ep=005] mask_avg: mc_mean=0.5247 mb_mean=0.4773 norm_overlap=0.9994 corr_cb=-0.1568
+[EPOCH 005/089] train: loss=1.3598 acc=63.70% | val: loss=0.6610 acc=62.90% f1=0.00% auc=47.94% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.200, w_sup=0.150, w_csuf=0.100, stage2=False) | mask(mc=0.525, mb=0.477, no=0.999, corr=-0.157) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=006] disease_pos_weight=1.0000 mode=none
+[DBG][ep=006] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=006] mask(step0): mc_mean=0.5151 mb_mean=0.4575 norm_overlap=0.9986 corr_cb=-0.3255 topkJ=0.0335
+[TRAIN][ep=006] loss=1.1159 acc=63.70%
+[TRAIN][ep=006] mask_avg: mc_mean=0.5026 mb_mean=0.4353 norm_overlap=0.9927 corr_cb=-0.5536
+[EPOCH 006/089] train: loss=1.1159 acc=63.70% | val: loss=0.6601 acc=62.90% f1=0.00% auc=48.49% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.100, w_sup=0.050, w_csuf=0.000, stage2=False) | mask(mc=0.503, mb=0.435, no=0.993, corr=-0.554) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=007] disease_pos_weight=1.0000 mode=none
+[DBG][ep=007] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=007] mask(step0): mc_mean=0.4910 mb_mean=0.4190 norm_overlap=0.9819 corr_cb=-0.7578 topkJ=0.0000
+[TRAIN][ep=007] loss=0.8698 acc=63.70%
+[TRAIN][ep=007] mask_avg: mc_mean=0.4802 mb_mean=0.3974 norm_overlap=0.9576 corr_cb=-0.8019
+[EPOCH 007/089] train: loss=0.8698 acc=63.70% | val: loss=0.6591 acc=62.90% f1=0.00% auc=51.28% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=False) | mask(mc=0.480, mb=0.397, no=0.958, corr=-0.802) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=008] disease_pos_weight=1.0000 mode=none
+[DBG][ep=008] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=008] mask(step0): mc_mean=0.4731 mb_mean=0.3841 norm_overlap=0.9388 corr_cb=-0.8683 topkJ=0.0000
+[TRAIN][ep=008] loss=0.8105 acc=63.70%
+[TRAIN][ep=008] mask_avg: mc_mean=0.4569 mb_mean=0.3753 norm_overlap=0.8511 corr_cb=-0.9327
+[EPOCH 008/089] train: loss=0.8105 acc=63.70% | val: loss=0.6587 acc=62.90% f1=0.00% auc=52.73% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=False) | mask(mc=0.457, mb=0.375, no=0.851, corr=-0.933) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=009] disease_pos_weight=1.0000 mode=none
+[DBG][ep=009] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=009] mask(step0): mc_mean=0.4480 mb_mean=0.3732 norm_overlap=0.7984 corr_cb=-0.9529 topkJ=0.0000
+[TRAIN][ep=009] loss=0.7708 acc=63.70%
+[TRAIN][ep=009] mask_avg: mc_mean=0.4400 mb_mean=0.3639 norm_overlap=0.6805 corr_cb=-0.9655
+[EPOCH 009/089] train: loss=0.7708 acc=63.70% | val: loss=0.6584 acc=62.90% f1=0.00% auc=53.73% val_score=62.9032 val_score_bestthr=62.9032 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=False) | mask(mc=0.440, mb=0.364, no=0.680, corr=-0.965) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 62.9032 -> 62.9032
+[DBG][ep=010] disease_pos_weight=1.0000 mode=none
+[DBG][ep=010] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=010] mask(step0): mc_mean=0.4460 mb_mean=0.3529 norm_overlap=0.6099 corr_cb=-0.9721 topkJ=0.0000
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[TRAIN][ep=010] loss=0.7327 acc=63.70%
+[TRAIN][ep=010] mask_avg: mc_mean=0.4294 mb_mean=0.3493 norm_overlap=0.5155 corr_cb=-0.9537
+[EPOCH 010/089] train: loss=0.7327 acc=63.70% | val: loss=0.6578 acc=62.90% f1=8.00% auc=54.63% val_score=62.9032 val_score_bestthr=66.4860 | dyn(w_pfs=0.040, w_sup=0.040, w_csuf=0.040, stage2=False) | mask(mc=0.429, mb=0.349, no=0.516, corr=-0.954) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=* 62.9032 -> 66.4860
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=011] disease_pos_weight=1.0000 mode=none
+[DBG][ep=011] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=011] mask(step0): mc_mean=0.4333 mb_mean=0.3269 norm_overlap=0.4226 corr_cb=-0.9325 topkJ=0.0000
+[TRAIN][ep=011] loss=0.7984 acc=63.70%
+[TRAIN][ep=011] mask_avg: mc_mean=0.4211 mb_mean=0.3314 norm_overlap=0.3911 corr_cb=-0.9280
+[EPOCH 011/089] train: loss=0.7984 acc=63.70% | val: loss=0.6575 acc=64.52% f1=8.33% auc=54.07% val_score=62.9032 val_score_bestthr=68.3041 | dyn(w_pfs=0.080, w_sup=0.080, w_csuf=0.080, stage2=False) | mask(mc=0.421, mb=0.331, no=0.391, corr=-0.928) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=* 66.4860 -> 68.3041
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=012] disease_pos_weight=1.0000 mode=none
+[DBG][ep=012] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=012] mask(step0): mc_mean=0.4070 mb_mean=0.3327 norm_overlap=0.3880 corr_cb=-0.9173 topkJ=0.0000
+[TRAIN][ep=012] loss=0.8708 acc=63.70%
+[TRAIN][ep=012] mask_avg: mc_mean=0.4123 mb_mean=0.3132 norm_overlap=0.3030 corr_cb=-0.8951
+[EPOCH 012/089] train: loss=0.8708 acc=63.70% | val: loss=0.6578 acc=64.52% f1=15.38% auc=54.85% val_score=62.9032 val_score_bestthr=71.6348 | dyn(w_pfs=0.120, w_sup=0.120, w_csuf=0.120, stage2=False) | mask(mc=0.412, mb=0.313, no=0.303, corr=-0.895) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=* 68.3041 -> 71.6348
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=013] disease_pos_weight=1.0000 mode=none
+[DBG][ep=013] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=013] mask(step0): mc_mean=0.3970 mb_mean=0.3062 norm_overlap=0.2736 corr_cb=-0.8733 topkJ=0.0000
+[TRAIN][ep=013] loss=0.9472 acc=63.88%
+[TRAIN][ep=013] mask_avg: mc_mean=0.4042 mb_mean=0.2960 norm_overlap=0.2414 corr_cb=-0.8628
+[EPOCH 013/089] train: loss=0.9472 acc=63.88% | val: loss=0.6582 acc=62.90% f1=8.00% auc=54.18% val_score=62.9032 val_score_bestthr=66.4860 | dyn(w_pfs=0.160, w_sup=0.160, w_csuf=0.160, stage2=False) | mask(mc=0.404, mb=0.296, no=0.241, corr=-0.863) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=- 71.6348 -> 66.4860
+[DBG][ep=014] disease_pos_weight=1.0000 mode=none
+[DBG][ep=014] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=014] mask(step0): mc_mean=0.4022 mb_mean=0.3164 norm_overlap=0.1797 corr_cb=-0.8755 topkJ=0.0000
+[TRAIN][ep=014] loss=1.0265 acc=63.70%
+[TRAIN][ep=014] mask_avg: mc_mean=0.3962 mb_mean=0.2801 norm_overlap=0.1939 corr_cb=-0.8281
+[EPOCH 014/089] train: loss=1.0265 acc=63.70% | val: loss=0.6554 acc=66.13% f1=16.00% auc=58.08% val_score=62.9032 val_score_bestthr=73.5938 | dyn(w_pfs=0.200, w_sup=0.200, w_csuf=0.200, stage2=False) | mask(mc=0.396, mb=0.280, no=0.194, corr=-0.828) | masker_state=mask_gen_c=ON,mask_gen_b=ON | best(val_score_bestthr)=* 71.6348 -> 73.5938
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=015] disease_pos_weight=1.0000 mode=none
+[DBG][ep=015] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=015] mask(step0): mc_mean=0.3943 mb_mean=0.2739 norm_overlap=0.1402 corr_cb=-0.8016 topkJ=0.0000
+[TRAIN][ep=015] loss=1.1100 acc=63.70%
+[TRAIN][ep=015] mask_avg: mc_mean=0.3892 mb_mean=0.2730 norm_overlap=0.1699 corr_cb=-0.8093
+[EPOCH 015/089] train: loss=1.1100 acc=63.70% | val: loss=0.6545 acc=66.13% f1=16.00% auc=58.64% val_score=62.9032 val_score_bestthr=73.5938 | dyn(w_pfs=0.240, w_sup=0.240, w_csuf=0.200, stage2=False) | mask(mc=0.389, mb=0.273, no=0.170, corr=-0.809) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 73.5938 -> 73.5938
+[DBG][ep=016] disease_pos_weight=1.0000 mode=none
+[DBG][ep=016] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=016] mask(step0): mc_mean=0.4110 mb_mean=0.2646 norm_overlap=0.1614 corr_cb=-0.8229 topkJ=0.0000
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[TRAIN][ep=016] loss=1.1177 acc=63.70%
+[TRAIN][ep=016] mask_avg: mc_mean=0.3833 mb_mean=0.2730 norm_overlap=0.1571 corr_cb=-0.8004
+[EPOCH 016/089] train: loss=1.1177 acc=63.70% | val: loss=0.6515 acc=66.13% f1=16.00% auc=59.64% val_score=62.9032 val_score_bestthr=73.5938 | dyn(w_pfs=0.280, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.383, mb=0.273, no=0.157, corr=-0.800) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 73.5938 -> 73.5938
+[DBG][ep=017] disease_pos_weight=1.0000 mode=none
+[DBG][ep=017] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=017] mask(step0): mc_mean=0.4022 mb_mean=0.2620 norm_overlap=0.1675 corr_cb=-0.7873 topkJ=0.0000
+[TRAIN][ep=017] loss=1.1227 acc=63.70%
+[TRAIN][ep=017] mask_avg: mc_mean=0.3773 mb_mean=0.2730 norm_overlap=0.1488 corr_cb=-0.7931
+[EPOCH 017/089] train: loss=1.1227 acc=63.70% | val: loss=0.6493 acc=66.13% f1=27.59% auc=60.65% val_score=62.9032 val_score_bestthr=78.9174 | dyn(w_pfs=0.320, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.377, mb=0.273, no=0.149, corr=-0.793) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=* 73.5938 -> 78.9174
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=018] disease_pos_weight=1.0000 mode=none
+[DBG][ep=018] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=018] mask(step0): mc_mean=0.3634 mb_mean=0.3041 norm_overlap=0.1305 corr_cb=-0.8188 topkJ=0.0000
+[TRAIN][ep=018] loss=1.1293 acc=63.70%
+[TRAIN][ep=018] mask_avg: mc_mean=0.3723 mb_mean=0.2730 norm_overlap=0.1422 corr_cb=-0.7869
+[EPOCH 018/089] train: loss=1.1293 acc=63.70% | val: loss=0.6487 acc=66.13% f1=27.59% auc=60.98% val_score=62.9032 val_score_bestthr=78.9174 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.372, mb=0.273, no=0.142, corr=-0.787) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 78.9174 -> 78.9174
+[DBG][ep=019] disease_pos_weight=1.0000 mode=none
+[DBG][ep=019] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=019] mask(step0): mc_mean=0.3509 mb_mean=0.2304 norm_overlap=0.1951 corr_cb=-0.7506 topkJ=0.0000
+[TRAIN][ep=019] loss=1.1302 acc=64.07%
+[TRAIN][ep=019] mask_avg: mc_mean=0.3685 mb_mean=0.2730 norm_overlap=0.1339 corr_cb=-0.7789
+[EPOCH 019/089] train: loss=1.1302 acc=64.07% | val: loss=0.6463 acc=66.13% f1=27.59% auc=61.76% val_score=62.9032 val_score_bestthr=78.9174 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.368, mb=0.273, no=0.134, corr=-0.779) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 78.9174 -> 78.9174
+[DBG][ep=020] disease_pos_weight=1.0000 mode=none
+[DBG][ep=020] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=020] mask(step0): mc_mean=0.3531 mb_mean=0.2539 norm_overlap=0.1888 corr_cb=-0.7907 topkJ=0.0000
+[TRAIN][ep=020] loss=1.1229 acc=64.79%
+[TRAIN][ep=020] mask_avg: mc_mean=0.3645 mb_mean=0.2730 norm_overlap=0.1283 corr_cb=-0.7732
+[EPOCH 020/089] train: loss=1.1229 acc=64.79% | val: loss=0.6434 acc=66.13% f1=48.78% auc=63.32% val_score=62.9032 val_score_bestthr=89.3688 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.364, mb=0.273, no=0.128, corr=-0.773) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=* 78.9174 -> 89.3688
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=021] disease_pos_weight=1.0000 mode=none
+[DBG][ep=021] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=021] mask(step0): mc_mean=0.3708 mb_mean=0.2672 norm_overlap=0.1425 corr_cb=-0.7839 topkJ=0.0000
+[TRAIN][ep=021] loss=1.1202 acc=64.97%
+[TRAIN][ep=021] mask_avg: mc_mean=0.3608 mb_mean=0.2730 norm_overlap=0.1235 corr_cb=-0.7672
+[EPOCH 021/089] train: loss=1.1202 acc=64.97% | val: loss=0.6412 acc=67.74% f1=50.00% auc=64.88% val_score=62.9032 val_score_bestthr=91.4974 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.361, mb=0.273, no=0.123, corr=-0.767) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=* 89.3688 -> 91.4974
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=022] disease_pos_weight=1.0000 mode=none
+[DBG][ep=022] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=022] mask(step0): mc_mean=0.3576 mb_mean=0.2753 norm_overlap=0.1335 corr_cb=-0.7847 topkJ=0.0000
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 16 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 19 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[TRAIN][ep=022] loss=1.1148 acc=65.70%
+[TRAIN][ep=022] mask_avg: mc_mean=0.3577 mb_mean=0.2729 norm_overlap=0.1191 corr_cb=-0.7621
+[EPOCH 022/089] train: loss=1.1148 acc=65.70% | val: loss=0.6390 acc=69.35% f1=38.71% auc=65.22% val_score=62.9032 val_score_bestthr=87.9781 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.358, mb=0.273, no=0.119, corr=-0.762) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 91.4974 -> 87.9781
+[DBG][ep=023] disease_pos_weight=1.0000 mode=none
+[DBG][ep=023] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=023] mask(step0): mc_mean=0.3695 mb_mean=0.2891 norm_overlap=0.0972 corr_cb=-0.7644 topkJ=0.0000
+[TRAIN][ep=023] loss=1.1125 acc=66.24%
+[TRAIN][ep=023] mask_avg: mc_mean=0.3542 mb_mean=0.2730 norm_overlap=0.1154 corr_cb=-0.7571
+[EPOCH 023/089] train: loss=1.1125 acc=66.24% | val: loss=0.6400 acc=66.13% f1=36.36% auc=64.88% val_score=62.9032 val_score_bestthr=83.5061 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.354, mb=0.273, no=0.115, corr=-0.757) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 91.4974 -> 83.5061
+[DBG][ep=024] disease_pos_weight=1.0000 mode=none
+[DBG][ep=024] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=024] mask(step0): mc_mean=0.3516 mb_mean=0.2729 norm_overlap=0.1262 corr_cb=-0.7615 topkJ=0.0000
+[TRAIN][ep=024] loss=1.1074 acc=65.70%
+[TRAIN][ep=024] mask_avg: mc_mean=0.3515 mb_mean=0.2730 norm_overlap=0.1117 corr_cb=-0.7512
+[EPOCH 024/089] train: loss=1.1074 acc=65.70% | val: loss=0.6368 acc=67.74% f1=33.33% auc=65.66% val_score=62.9032 val_score_bestthr=83.6571 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.352, mb=0.273, no=0.112, corr=-0.751) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 91.4974 -> 83.6571
+[DBG][ep=025] disease_pos_weight=1.0000 mode=none
+[DBG][ep=025] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=025] mask(step0): mc_mean=0.3544 mb_mean=0.2640 norm_overlap=0.1532 corr_cb=-0.7739 topkJ=0.0000
+[TRAIN][ep=025] loss=1.1023 acc=66.61%
+[TRAIN][ep=025] mask_avg: mc_mean=0.3497 mb_mean=0.2730 norm_overlap=0.1071 corr_cb=-0.7466
+[EPOCH 025/089] train: loss=1.1023 acc=66.61% | val: loss=0.6333 acc=69.35% f1=51.28% auc=66.56% val_score=62.9032 val_score_bestthr=94.2638 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.350, mb=0.273, no=0.107, corr=-0.747) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=* 91.4974 -> 94.2638
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=026] disease_pos_weight=1.0000 mode=none
+[DBG][ep=026] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=026] mask(step0): mc_mean=0.3165 mb_mean=0.2633 norm_overlap=0.1319 corr_cb=-0.7326 topkJ=0.0000
+[TRAIN][ep=026] loss=1.0956 acc=66.42%
+[TRAIN][ep=026] mask_avg: mc_mean=0.3471 mb_mean=0.2730 norm_overlap=0.1041 corr_cb=-0.7419
+[EPOCH 026/089] train: loss=1.0956 acc=66.42% | val: loss=0.6326 acc=69.35% f1=51.28% auc=66.44% val_score=62.9032 val_score_bestthr=94.2638 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.347, mb=0.273, no=0.104, corr=-0.742) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 94.2638 -> 94.2638
+[DBG][ep=027] disease_pos_weight=1.0000 mode=none
+[DBG][ep=027] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=027] mask(step0): mc_mean=0.3244 mb_mean=0.2816 norm_overlap=0.0895 corr_cb=-0.7292 topkJ=0.0000
+[TRAIN][ep=027] loss=1.0896 acc=67.33%
+[TRAIN][ep=027] mask_avg: mc_mean=0.3440 mb_mean=0.2730 norm_overlap=0.1024 corr_cb=-0.7375
+[EPOCH 027/089] train: loss=1.0896 acc=67.33% | val: loss=0.6296 acc=70.97% f1=52.63% auc=66.89% val_score=61.2000 val_score_bestthr=96.6418 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.344, mb=0.273, no=0.102, corr=-0.738) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=* 94.2638 -> 96.6418
+[CKPT] Saved best -> results/ckpt_best_fold_0.pt
+[DBG][ep=028] disease_pos_weight=1.0000 mode=none
+[DBG][ep=028] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=028] mask(step0): mc_mean=0.3947 mb_mean=0.2614 norm_overlap=0.0657 corr_cb=-0.7367 topkJ=0.0000
+[TRAIN][ep=028] loss=1.0845 acc=67.88%
+[TRAIN][ep=028] mask_avg: mc_mean=0.3414 mb_mean=0.2730 norm_overlap=0.0991 corr_cb=-0.7329
+[EPOCH 028/089] train: loss=1.0845 acc=67.88% | val: loss=0.6299 acc=69.35% f1=51.28% auc=67.00% val_score=62.9032 val_score_bestthr=94.3717 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.341, mb=0.273, no=0.099, corr=-0.733) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 94.3717
+[DBG][ep=029] disease_pos_weight=1.0000 mode=none
+[DBG][ep=029] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=029] mask(step0): mc_mean=0.3347 mb_mean=0.2650 norm_overlap=0.1205 corr_cb=-0.7221 topkJ=0.0000
+[TRAIN][ep=029] loss=1.0812 acc=66.97%
+[TRAIN][ep=029] mask_avg: mc_mean=0.3404 mb_mean=0.2731 norm_overlap=0.0968 corr_cb=-0.7285
+[EPOCH 029/089] train: loss=1.0812 acc=66.97% | val: loss=0.6265 acc=69.35% f1=51.28% auc=67.56% val_score=61.2000 val_score_bestthr=94.3717 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.340, mb=0.273, no=0.097, corr=-0.729) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 94.3717
+[DBG][ep=030] disease_pos_weight=1.0000 mode=none
+[DBG][ep=030] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=030] mask(step0): mc_mean=0.3441 mb_mean=0.2588 norm_overlap=0.0927 corr_cb=-0.7064 topkJ=0.0000
+[TRAIN][ep=030] loss=1.0752 acc=68.42%
+[TRAIN][ep=030] mask_avg: mc_mean=0.3391 mb_mean=0.2730 norm_overlap=0.0939 corr_cb=-0.7253
+[EPOCH 030/089] train: loss=1.0752 acc=68.42% | val: loss=0.6242 acc=70.97% f1=43.75% auc=67.45% val_score=64.6846 val_score_bestthr=92.1353 | dyn(w_pfs=0.350, w_sup=0.250, w_csuf=0.200, stage2=False) | mask(mc=0.339, mb=0.273, no=0.094, corr=-0.725) | masker_state=mask_gen_c=ON,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=031] disease_pos_weight=1.0000 mode=none
+[DBG][ep=031] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=031] mask(step0): mc_mean=0.3630 mb_mean=0.2628 norm_overlap=0.0798 corr_cb=-0.7456 topkJ=0.0000
+[TRAIN][ep=031] loss=0.6548 acc=68.60%
+[TRAIN][ep=031] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0934 corr_cb=-0.7230
+[EPOCH 031/089] train: loss=0.6548 acc=68.60% | val: loss=0.6233 acc=70.97% f1=43.75% auc=67.67% val_score=69.7231 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=032] disease_pos_weight=1.0000 mode=none
+[DBG][ep=032] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=032] mask(step0): mc_mean=0.3700 mb_mean=0.2848 norm_overlap=0.0571 corr_cb=-0.7502 topkJ=0.0000
+[TRAIN][ep=032] loss=0.5712 acc=68.60%
+[TRAIN][ep=032] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0936 corr_cb=-0.7231
+[EPOCH 032/089] train: loss=0.5712 acc=68.60% | val: loss=0.6232 acc=70.97% f1=52.63% auc=67.56% val_score=64.6846 val_score_bestthr=96.6418 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.094, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 96.6418
+[DBG][ep=033] disease_pos_weight=1.0000 mode=none
+[DBG][ep=033] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=033] mask(step0): mc_mean=0.3194 mb_mean=0.2686 norm_overlap=0.1092 corr_cb=-0.7312 topkJ=0.0000
+[TRAIN][ep=033] loss=0.5701 acc=68.60%
+[TRAIN][ep=033] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0932 corr_cb=-0.7233
+[EPOCH 033/089] train: loss=0.5701 acc=68.60% | val: loss=0.6224 acc=70.97% f1=43.75% auc=67.45% val_score=74.4933 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=034] disease_pos_weight=1.0000 mode=none
+[DBG][ep=034] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=034] mask(step0): mc_mean=0.3548 mb_mean=0.2683 norm_overlap=0.0950 corr_cb=-0.7381 topkJ=0.0000
+[TRAIN][ep=034] loss=0.5696 acc=69.15%
+[TRAIN][ep=034] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0931 corr_cb=-0.7233
+[EPOCH 034/089] train: loss=0.5696 acc=69.15% | val: loss=0.6220 acc=69.35% f1=48.65% auc=67.22% val_score=74.4933 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=035] disease_pos_weight=1.0000 mode=none
+[DBG][ep=035] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=035] mask(step0): mc_mean=0.3087 mb_mean=0.2399 norm_overlap=0.1476 corr_cb=-0.7020 topkJ=0.0000
+[TRAIN][ep=035] loss=0.5685 acc=69.33%
+[TRAIN][ep=035] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0935 corr_cb=-0.7235
+[EPOCH 035/089] train: loss=0.5685 acc=69.33% | val: loss=0.6215 acc=69.35% f1=48.65% auc=67.34% val_score=74.4933 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.094, corr=-0.724) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=036] disease_pos_weight=1.0000 mode=none
+[DBG][ep=036] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=036] mask(step0): mc_mean=0.3488 mb_mean=0.2754 norm_overlap=0.0613 corr_cb=-0.6996 topkJ=0.0000
+[TRAIN][ep=036] loss=0.5674 acc=68.97%
+[TRAIN][ep=036] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0936 corr_cb=-0.7231
+[EPOCH 036/089] train: loss=0.5674 acc=68.97% | val: loss=0.6214 acc=69.35% f1=48.65% auc=67.45% val_score=74.4933 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.094, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=037] disease_pos_weight=1.0000 mode=none
+[DBG][ep=037] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=037] mask(step0): mc_mean=0.3344 mb_mean=0.2967 norm_overlap=0.1058 corr_cb=-0.7607 topkJ=0.0000
+[TRAIN][ep=037] loss=0.5666 acc=69.15%
+[TRAIN][ep=037] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0934 corr_cb=-0.7232
+[EPOCH 037/089] train: loss=0.5666 acc=69.15% | val: loss=0.6208 acc=69.35% f1=48.65% auc=67.45% val_score=79.3827 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=038] disease_pos_weight=1.0000 mode=none
+[DBG][ep=038] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=038] mask(step0): mc_mean=0.3373 mb_mean=0.2796 norm_overlap=0.0700 corr_cb=-0.7243 topkJ=0.0000
+[TRAIN][ep=038] loss=0.5657 acc=69.33%
+[TRAIN][ep=038] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0932 corr_cb=-0.7233
+[EPOCH 038/089] train: loss=0.5657 acc=69.33% | val: loss=0.6204 acc=70.97% f1=43.75% auc=67.67% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=039] disease_pos_weight=1.0000 mode=none
+[DBG][ep=039] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=039] mask(step0): mc_mean=0.3445 mb_mean=0.2958 norm_overlap=0.0771 corr_cb=-0.7385 topkJ=0.0000
+[TRAIN][ep=039] loss=0.5648 acc=69.33%
+[TRAIN][ep=039] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0932 corr_cb=-0.7230
+[EPOCH 039/089] train: loss=0.5648 acc=69.33% | val: loss=0.6198 acc=70.97% f1=43.75% auc=68.12% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=040] disease_pos_weight=1.0000 mode=none
+[DBG][ep=040] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=040] mask(step0): mc_mean=0.3245 mb_mean=0.2489 norm_overlap=0.0920 corr_cb=-0.6759 topkJ=0.0000
+[TRAIN][ep=040] loss=0.5638 acc=69.51%
+[TRAIN][ep=040] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0935 corr_cb=-0.7235
+[EPOCH 040/089] train: loss=0.5638 acc=69.51% | val: loss=0.6195 acc=70.97% f1=52.63% auc=68.12% val_score=79.3827 val_score_bestthr=96.6418 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.724) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 96.6418
+[DBG][ep=041] disease_pos_weight=1.0000 mode=none
+[DBG][ep=041] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=041] mask(step0): mc_mean=0.3456 mb_mean=0.3121 norm_overlap=0.0805 corr_cb=-0.7665 topkJ=0.0000
+[TRAIN][ep=041] loss=0.5629 acc=69.51%
+[TRAIN][ep=041] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0930 corr_cb=-0.7228
+[EPOCH 041/089] train: loss=0.5629 acc=69.51% | val: loss=0.6193 acc=70.97% f1=50.00% auc=68.12% val_score=79.3827 val_score_bestthr=95.4783 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 95.4783
+[DBG][ep=042] disease_pos_weight=1.0000 mode=none
+[DBG][ep=042] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=042] mask(step0): mc_mean=0.3321 mb_mean=0.2720 norm_overlap=0.1048 corr_cb=-0.7410 topkJ=0.0000
+[TRAIN][ep=042] loss=0.5625 acc=69.51%
+[TRAIN][ep=042] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0933 corr_cb=-0.7231
+[EPOCH 042/089] train: loss=0.5625 acc=69.51% | val: loss=0.6188 acc=69.35% f1=51.28% auc=68.23% val_score=79.3827 val_score_bestthr=94.3717 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 94.3717
+[DBG][ep=043] disease_pos_weight=1.0000 mode=none
+[DBG][ep=043] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=043] mask(step0): mc_mean=0.3492 mb_mean=0.2764 norm_overlap=0.0918 corr_cb=-0.7428 topkJ=0.0000
+[TRAIN][ep=043] loss=0.5613 acc=69.51%
+[TRAIN][ep=043] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0930 corr_cb=-0.7233
+[EPOCH 043/089] train: loss=0.5613 acc=69.51% | val: loss=0.6186 acc=69.35% f1=51.28% auc=68.23% val_score=79.3827 val_score_bestthr=94.3717 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 94.3717
+[DBG][ep=044] disease_pos_weight=1.0000 mode=none
+[DBG][ep=044] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=044] mask(step0): mc_mean=0.3552 mb_mean=0.2730 norm_overlap=0.0815 corr_cb=-0.7350 topkJ=0.0000
+[TRAIN][ep=044] loss=0.5606 acc=69.69%
+[TRAIN][ep=044] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0929 corr_cb=-0.7226
+[EPOCH 044/089] train: loss=0.5606 acc=69.69% | val: loss=0.6185 acc=70.97% f1=50.00% auc=68.23% val_score=79.3827 val_score_bestthr=95.4783 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 95.4783
+[DBG][ep=045] disease_pos_weight=1.0000 mode=none
+[DBG][ep=045] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=045] mask(step0): mc_mean=0.3178 mb_mean=0.2967 norm_overlap=0.0754 corr_cb=-0.7084 topkJ=0.0000
+[TRAIN][ep=045] loss=0.5596 acc=69.87%
+[TRAIN][ep=045] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0929 corr_cb=-0.7229
+[EPOCH 045/089] train: loss=0.5596 acc=69.87% | val: loss=0.6177 acc=70.97% f1=43.75% auc=68.34% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=046] disease_pos_weight=1.0000 mode=none
+[DBG][ep=046] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=046] mask(step0): mc_mean=0.3315 mb_mean=0.2793 norm_overlap=0.0998 corr_cb=-0.7260 topkJ=0.0000
+[TRAIN][ep=046] loss=0.5589 acc=69.33%
+[TRAIN][ep=046] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0929 corr_cb=-0.7229
+[EPOCH 046/089] train: loss=0.5589 acc=69.33% | val: loss=0.6176 acc=70.97% f1=43.75% auc=68.23% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=047] disease_pos_weight=1.0000 mode=none
+[DBG][ep=047] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=047] mask(step0): mc_mean=0.3174 mb_mean=0.2900 norm_overlap=0.0935 corr_cb=-0.7464 topkJ=0.0000
+[TRAIN][ep=047] loss=0.5583 acc=70.42%
+[TRAIN][ep=047] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0935 corr_cb=-0.7232
+[EPOCH 047/089] train: loss=0.5583 acc=70.42% | val: loss=0.6172 acc=69.35% f1=48.65% auc=68.45% val_score=79.3827 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=048] disease_pos_weight=1.0000 mode=none
+[DBG][ep=048] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=048] mask(step0): mc_mean=0.3705 mb_mean=0.2792 norm_overlap=0.0706 corr_cb=-0.7393 topkJ=0.0000
+[TRAIN][ep=048] loss=0.5574 acc=70.60%
+[TRAIN][ep=048] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0936 corr_cb=-0.7235
+[EPOCH 048/089] train: loss=0.5574 acc=70.60% | val: loss=0.6173 acc=70.97% f1=43.75% auc=68.12% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.094, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=049] disease_pos_weight=1.0000 mode=none
+[DBG][ep=049] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=049] mask(step0): mc_mean=0.3258 mb_mean=0.2842 norm_overlap=0.1114 corr_cb=-0.7301 topkJ=0.0000
+[TRAIN][ep=049] loss=0.5563 acc=69.87%
+[TRAIN][ep=049] mask_avg: mc_mean=0.3369 mb_mean=0.2730 norm_overlap=0.0930 corr_cb=-0.7229
+[EPOCH 049/089] train: loss=0.5563 acc=69.87% | val: loss=0.6168 acc=70.97% f1=43.75% auc=68.12% val_score=79.3827 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=050] disease_pos_weight=1.0000 mode=none
+[DBG][ep=050] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=050] mask(step0): mc_mean=0.3340 mb_mean=0.2853 norm_overlap=0.1204 corr_cb=-0.7528 topkJ=0.0000
+[TRAIN][ep=050] loss=0.5558 acc=71.14%
+[TRAIN][ep=050] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0932 corr_cb=-0.7233
+[EPOCH 050/089] train: loss=0.5558 acc=71.14% | val: loss=0.6161 acc=70.97% f1=50.00% auc=68.12% val_score=83.9489 val_score_bestthr=95.4783 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 95.4783
+[DBG][ep=051] disease_pos_weight=1.0000 mode=none
+[DBG][ep=051] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=051] mask(step0): mc_mean=0.3223 mb_mean=0.2249 norm_overlap=0.1092 corr_cb=-0.6354 topkJ=0.0000
+[TRAIN][ep=051] loss=0.5549 acc=70.42%
+[TRAIN][ep=051] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0934 corr_cb=-0.7235
+[EPOCH 051/089] train: loss=0.5549 acc=70.42% | val: loss=0.6163 acc=69.35% f1=48.65% auc=68.00% val_score=83.9489 val_score_bestthr=93.1619 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 93.1619
+[DBG][ep=052] disease_pos_weight=1.0000 mode=none
+[DBG][ep=052] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=052] mask(step0): mc_mean=0.3534 mb_mean=0.2509 norm_overlap=0.0849 corr_cb=-0.7083 topkJ=0.0000
+[TRAIN][ep=052] loss=0.5542 acc=70.96%
+[TRAIN][ep=052] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0934 corr_cb=-0.7233
+[EPOCH 052/089] train: loss=0.5542 acc=70.96% | val: loss=0.6159 acc=70.97% f1=50.00% auc=67.89% val_score=83.9489 val_score_bestthr=95.4783 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 95.4783
+[DBG][ep=053] disease_pos_weight=1.0000 mode=none
+[DBG][ep=053] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=053] mask(step0): mc_mean=0.3585 mb_mean=0.2552 norm_overlap=0.0672 corr_cb=-0.7064 topkJ=0.0000
+[TRAIN][ep=053] loss=0.5535 acc=71.32%
+[TRAIN][ep=053] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0930 corr_cb=-0.7230
+[EPOCH 053/089] train: loss=0.5535 acc=71.32% | val: loss=0.6151 acc=70.97% f1=43.75% auc=67.78% val_score=87.9823 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=054] disease_pos_weight=1.0000 mode=none
+[DBG][ep=054] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=054] mask(step0): mc_mean=0.3376 mb_mean=0.2548 norm_overlap=0.0859 corr_cb=-0.6901 topkJ=0.0000
+[TRAIN][ep=054] loss=0.5526 acc=71.51%
+[TRAIN][ep=054] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0933 corr_cb=-0.7234
+[EPOCH 054/089] train: loss=0.5526 acc=71.51% | val: loss=0.6152 acc=70.97% f1=43.75% auc=67.89% val_score=83.9489 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=055] disease_pos_weight=1.0000 mode=none
+[DBG][ep=055] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=055] mask(step0): mc_mean=0.3454 mb_mean=0.2733 norm_overlap=0.0831 corr_cb=-0.7156 topkJ=0.0000
+[TRAIN][ep=055] loss=0.5519 acc=71.51%
+[TRAIN][ep=055] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0931 corr_cb=-0.7230
+[EPOCH 055/089] train: loss=0.5519 acc=71.51% | val: loss=0.6151 acc=70.97% f1=50.00% auc=67.78% val_score=83.9489 val_score_bestthr=95.4783 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 95.4783
+[DBG][ep=056] disease_pos_weight=1.0000 mode=none
+[DBG][ep=056] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=056] mask(step0): mc_mean=0.3627 mb_mean=0.2348 norm_overlap=0.0756 corr_cb=-0.6765 topkJ=0.0000
+[TRAIN][ep=056] loss=0.5513 acc=70.60%
+[TRAIN][ep=056] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0931 corr_cb=-0.7228
+[EPOCH 056/089] train: loss=0.5513 acc=70.60% | val: loss=0.6149 acc=70.97% f1=43.75% auc=67.78% val_score=87.9823 val_score_bestthr=92.1353 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 92.1353
+[DBG][ep=057] disease_pos_weight=1.0000 mode=none
+[DBG][ep=057] cf_detach_zc=False cf_detach_zb_for_disease=True ent_yb_head_only=True
+[DBG][ep=057] mask(step0): mc_mean=0.3594 mb_mean=0.2617 norm_overlap=0.0619 corr_cb=-0.7012 topkJ=0.0000
+[TRAIN][ep=057] loss=0.5504 acc=71.69%
+[TRAIN][ep=057] mask_avg: mc_mean=0.3370 mb_mean=0.2730 norm_overlap=0.0934 corr_cb=-0.7232
+[EPOCH 057/089] train: loss=0.5504 acc=71.69% | val: loss=0.6143 acc=69.35% f1=51.28% auc=67.67% val_score=87.9823 val_score_bestthr=94.3717 | dyn(w_pfs=0.000, w_sup=0.000, w_csuf=0.000, stage2=True) | mask(mc=0.337, mb=0.273, no=0.093, corr=-0.723) | masker_state=mask_gen_c=OFF,mask_gen_b=OFF | best(val_score_bestthr)=- 96.6418 -> 94.3717
+[EARLY STOP] no improvement for 30 epochs. best_epoch=27
+[CKPT] Loaded best for testing: results/ckpt_best_fold_0.pt
+=============== FIT DONE ===============
+[BEST] epoch=27 | val_acc=70.97% | val_f1=52.63% | val_auc=66.89% | val_score=61.2000 | val_score_bestthr=96.6418
+[TEST@BEST] thr_used=0.430 | acc=63.64% f1=36.36% auc=63.48% | SP_sex=6.33% EO_sex=18.75% SP_age=33.40% EO_age=26.20%
+[TIME] 1.04 min
+[OK] Saved: results/summary_fold_0.json
+
+[OK] Saved: results/summary_fold_0_main.json
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.

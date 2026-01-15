@@ -1,0 +1,51 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2026-01-02T01:51:24.989441Z",
+  "args":  [
+    "--adaptive_schedule=True",
+    "--base_seed=0",
+    "--batch_size=8",
+    "--cf_detach_zb_for_disease=True",
+    "--dataset=ADHD",
+    "--disease_pos_weight_mode=sqrt",
+    "--ent_yb_head_only=True",
+    "--eval_thr_grid=fine",
+    "--eval_thr_mode=best_f1",
+    "--eval_use_best_thr=True",
+    "--folds=5",
+    "--freeze_b_after=25",
+    "--lam_ent_yb=0.04",
+    "--lambda_mask_dis=0.12",
+    "--lambda_mask_l1=0",
+    "--lambda_pfs=0.12",
+    "--lambda_sensitive=0.008",
+    "--lr=0.0001",
+    "--results_dir=results",
+    "--run_cap=30",
+    "--stage2_lr_mult=0.3",
+    "--two_stage=True",
+    "--weight_decay=0.0005",
+    "--use_wandb",
+    "--no_wandb_per_fold"
+  ],
+  "program":  "src/run_5fold.py",
+  "codePath":  "src/run_5fold.py",
+  "codePathLocal":  "src/run_5fold.py",
+  "email":  "mjliujade@gmail.com",
+  "root":  "/root/autodl-tmp/DisBG-Jade",
+  "host":  "autodl-container-9b594ca734-9105cd32",
+  "executable":  "/root/miniconda3/envs/disbg/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "25430151168"
+    }
+  },
+  "memory":  {
+    "total":  "810178560000"
+  },
+  "writerId":  "nusl0j4dysiel1083bdx7grqug1hjf07"
+}

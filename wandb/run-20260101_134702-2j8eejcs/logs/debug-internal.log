@@ -1,0 +1,13 @@
+{"time":"2026-01-01T13:47:02.625285169+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T13:47:02.654720848+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T13:47:03.429118373+08:00","level":"INFO","msg":"stream: created new stream","id":"2j8eejcs"}
+{"time":"2026-01-01T13:47:03.429288064+08:00","level":"INFO","msg":"handler: started","stream_id":"2j8eejcs"}
+{"time":"2026-01-01T13:47:03.429891848+08:00","level":"INFO","msg":"stream: started","id":"2j8eejcs"}
+{"time":"2026-01-01T13:47:03.429984226+08:00","level":"INFO","msg":"writer: started","stream_id":"2j8eejcs"}
+{"time":"2026-01-01T13:47:03.429992687+08:00","level":"INFO","msg":"sender: started","stream_id":"2j8eejcs"}
+{"time":"2026-01-01T13:48:04.750473044+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T13:48:05.620832491+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T13:48:05.628135137+08:00","level":"INFO","msg":"stream: closing","id":"2j8eejcs"}
+{"time":"2026-01-01T13:48:05.628162237+08:00","level":"INFO","msg":"handler: closed","stream_id":"2j8eejcs"}
+{"time":"2026-01-01T13:48:05.628285826+08:00","level":"INFO","msg":"sender: closed","stream_id":"2j8eejcs"}
+{"time":"2026-01-01T13:48:05.6282986+08:00","level":"INFO","msg":"stream: closed","id":"2j8eejcs"}

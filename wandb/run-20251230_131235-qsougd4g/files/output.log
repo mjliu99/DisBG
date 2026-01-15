@@ -1,0 +1,35 @@
+
+================ Fold 0 (seed=0) ================
+
+
+================ FINAL 5-FOLD RESULTS ================
+
+fold_id: 0.00 ± 0.00
+seed: 0.00 ± 0.00
+best_epoch: 19.00 ± 0.00
+val.accuracy: 72.58 ± 0.00
+val.f1_score: 66.67 ± 0.00
+val.roc_auc: 71.79 ± 0.00
+val.val_score: 104.97 ± 0.00
+val.val_score_bestthr: 109.04 ± 0.00
+val.SP_sex: 4.91 ± 0.00
+val.EO_sex: 12.75 ± 0.00
+val.SP_age: 37.50 ± 0.00
+val.EO_age: 38.89 ± 0.00
+test.accuracy: 55.84 ± 0.00
+test.roc_auc: 60.02 ± 0.00
+test.precision: 42.11 ± 0.00
+test.recall: 57.14 ± 0.00
+test.f1_score: 48.48 ± 0.00
+test.SP_sex: 10.41 ± 0.00
+test.EO_sex: 20.83 ± 0.00
+test.SP_age: 28.83 ± 0.00
+test.EO_age: 45.99 ± 0.00
+test.val_score: 79.03 ± 0.00
+test.val_score_bestthr: 65.00 ± 0.00
+test.best_thr_f1: 0.23 ± 0.00
+test.best_f1: 53.66 ± 0.00
+test.best_accuracy: 38.31 ± 0.00
+
+[OK] Saved: results/summary_5fold.json
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.

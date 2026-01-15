@@ -1,0 +1,38 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2026-01-02T06:21:15.226788Z",
+  "args":  [
+    "--dataset",
+    "ADHD",
+    "--folds",
+    "1",
+    "--base_seed",
+    "0",
+    "--use_wandb",
+    "--no_wandb_per_fold",
+    "--wandb_project",
+    "DisBG-B",
+    "--wandb_entity",
+    "mjliujade-federation-university-australia"
+  ],
+  "program":  "src/run_5fold.py",
+  "codePath":  "src/run_5fold.py",
+  "codePathLocal":  "src/run_5fold.py",
+  "email":  "mjliujade@gmail.com",
+  "root":  "/root/autodl-tmp/DisBG-Jade",
+  "host":  "autodl-container-9b594ca734-9105cd32",
+  "executable":  "/root/miniconda3/envs/disbg/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "25431478272"
+    }
+  },
+  "memory":  {
+    "total":  "810178560000"
+  },
+  "writerId":  "qxt9n30m0pbmswhvruadpqs7n8zemyx5"
+}

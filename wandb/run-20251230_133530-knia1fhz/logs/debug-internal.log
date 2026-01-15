@@ -1,0 +1,12 @@
+{"time":"2025-12-30T13:35:31.07291278+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T13:35:31.813906882+08:00","level":"INFO","msg":"stream: created new stream","id":"knia1fhz"}
+{"time":"2025-12-30T13:35:31.81403832+08:00","level":"INFO","msg":"handler: started","stream_id":"knia1fhz"}
+{"time":"2025-12-30T13:35:31.814203762+08:00","level":"INFO","msg":"stream: started","id":"knia1fhz"}
+{"time":"2025-12-30T13:35:31.814231938+08:00","level":"INFO","msg":"sender: started","stream_id":"knia1fhz"}
+{"time":"2025-12-30T13:35:31.814235377+08:00","level":"INFO","msg":"writer: started","stream_id":"knia1fhz"}
+{"time":"2025-12-30T13:36:13.263185788+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T13:36:13.966111698+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T13:36:13.971903631+08:00","level":"INFO","msg":"stream: closing","id":"knia1fhz"}
+{"time":"2025-12-30T13:36:13.971930313+08:00","level":"INFO","msg":"handler: closed","stream_id":"knia1fhz"}
+{"time":"2025-12-30T13:36:13.9720562+08:00","level":"INFO","msg":"sender: closed","stream_id":"knia1fhz"}
+{"time":"2025-12-30T13:36:13.972074951+08:00","level":"INFO","msg":"stream: closed","id":"knia1fhz"}

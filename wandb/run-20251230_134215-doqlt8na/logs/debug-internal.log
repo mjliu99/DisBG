@@ -1,0 +1,12 @@
+{"time":"2025-12-30T13:42:15.510821313+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T13:42:16.251914631+08:00","level":"INFO","msg":"stream: created new stream","id":"doqlt8na"}
+{"time":"2025-12-30T13:42:16.252053261+08:00","level":"INFO","msg":"handler: started","stream_id":"doqlt8na"}
+{"time":"2025-12-30T13:42:16.25230827+08:00","level":"INFO","msg":"stream: started","id":"doqlt8na"}
+{"time":"2025-12-30T13:42:16.252325744+08:00","level":"INFO","msg":"writer: started","stream_id":"doqlt8na"}
+{"time":"2025-12-30T13:42:16.252334839+08:00","level":"INFO","msg":"sender: started","stream_id":"doqlt8na"}
+{"time":"2025-12-30T13:43:11.191343182+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T13:43:11.854567249+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T13:43:11.861009053+08:00","level":"INFO","msg":"stream: closing","id":"doqlt8na"}
+{"time":"2025-12-30T13:43:11.861034755+08:00","level":"INFO","msg":"handler: closed","stream_id":"doqlt8na"}
+{"time":"2025-12-30T13:43:11.861154689+08:00","level":"INFO","msg":"sender: closed","stream_id":"doqlt8na"}
+{"time":"2025-12-30T13:43:11.861167321+08:00","level":"INFO","msg":"stream: closed","id":"doqlt8na"}

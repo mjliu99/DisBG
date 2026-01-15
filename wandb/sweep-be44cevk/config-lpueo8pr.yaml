@@ -1,0 +1,20 @@
+wandb_version: 1
+
+lambda_mask_l1:
+  value: 0.2
+lambda_ortho:
+  value: 0.02
+lambda_pfs:
+  value: 0.1
+lambda_sensitive:
+  value: 0.01
+lambda_supcon:
+  value: 0
+lr:
+  value: 0.0004606257370158563
+mask_target_mean:
+  value: 0.2
+masker_lr_mult:
+  value: 1
+weight_decay:
+  value: 0.0001

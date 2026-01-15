@@ -1,0 +1,12 @@
+{"time":"2026-01-02T15:14:03.889041007+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-02T15:14:03.918472+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-02T15:14:04.654281286+08:00","level":"INFO","msg":"stream: created new stream","id":"qkfpy401"}
+{"time":"2026-01-02T15:14:04.654419251+08:00","level":"INFO","msg":"handler: started","stream_id":"qkfpy401"}
+{"time":"2026-01-02T15:14:04.655136953+08:00","level":"INFO","msg":"stream: started","id":"qkfpy401"}
+{"time":"2026-01-02T15:14:04.655165922+08:00","level":"INFO","msg":"writer: started","stream_id":"qkfpy401"}
+{"time":"2026-01-02T15:14:04.655239317+08:00","level":"INFO","msg":"sender: started","stream_id":"qkfpy401"}
+{"time":"2026-01-02T15:15:30.435421107+08:00","level":"INFO","msg":"stream: closing","id":"qkfpy401"}
+{"time":"2026-01-02T15:15:32.193752209+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-02T15:15:32.870030086+08:00","level":"INFO","msg":"handler: closed","stream_id":"qkfpy401"}
+{"time":"2026-01-02T15:15:32.870272791+08:00","level":"INFO","msg":"sender: closed","stream_id":"qkfpy401"}
+{"time":"2026-01-02T15:15:32.870305682+08:00","level":"INFO","msg":"stream: closed","id":"qkfpy401"}

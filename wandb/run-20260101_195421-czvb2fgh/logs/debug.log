@@ -1,0 +1,26 @@
+2026-01-01 19:54:21,121 INFO    MainThread:11260 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2026-01-01 19:54:21,121 INFO    MainThread:11260 [wandb_setup.py:_flush():80] Configure stats pid to 11260
+2026-01-01 19:54:21,121 INFO    MainThread:11260 [wandb_setup.py:_flush():80] Loading settings from /root/.config/wandb/settings
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_setup.py:_flush():80] Loading settings from /root/autodl-tmp/DisBG-Jade/wandb/settings
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /root/autodl-tmp/DisBG-Jade/wandb/run-20260101_195421-czvb2fgh/logs/debug.log
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /root/autodl-tmp/DisBG-Jade/wandb/run-20260101_195421-czvb2fgh/logs/debug-internal.log
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_init.py:init():841] calling init triggers
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-01-01 19:54:21,122 INFO    MainThread:11260 [wandb_init.py:init():889] starting backend
+2026-01-01 19:54:21,340 INFO    MainThread:11260 [wandb_init.py:init():892] sending inform_init request
+2026-01-01 19:54:21,363 INFO    MainThread:11260 [wandb_init.py:init():900] backend started and connected
+2026-01-01 19:54:21,377 INFO    MainThread:11260 [wandb_init.py:init():970] updated telemetry
+2026-01-01 19:54:21,378 INFO    MainThread:11260 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-01-01 19:54:22,533 INFO    MainThread:11260 [wandb_init.py:init():1041] starting run threads in backend
+2026-01-01 19:54:22,579 INFO    MainThread:11260 [wandb_run.py:_console_start():2521] atexit reg
+2026-01-01 19:54:22,579 INFO    MainThread:11260 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-01-01 19:54:22,579 INFO    MainThread:11260 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-01-01 19:54:22,579 INFO    MainThread:11260 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-01-01 19:54:22,584 INFO    MainThread:11260 [wandb_init.py:init():1081] run started, returning control to user process
+2026-01-01 19:54:22,585 INFO    MainThread:11260 [wandb_run.py:_finish():2287] finishing run mjliujade-federation-university-australia/DisBG/czvb2fgh
+2026-01-01 19:54:22,585 INFO    MainThread:11260 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2026-01-01 19:54:22,585 INFO    MainThread:11260 [wandb_run.py:_restore():2468] restore
+2026-01-01 19:54:22,585 INFO    MainThread:11260 [wandb_run.py:_restore():2474] restore done
+2026-01-01 19:54:24,621 INFO    MainThread:11260 [wandb_run.py:_footer_sync_info():3862] logging synced files

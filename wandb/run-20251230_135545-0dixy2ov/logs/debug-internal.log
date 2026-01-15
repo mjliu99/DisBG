@@ -1,0 +1,12 @@
+{"time":"2025-12-30T13:55:45.696451988+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T13:55:46.423690835+08:00","level":"INFO","msg":"stream: created new stream","id":"0dixy2ov"}
+{"time":"2025-12-30T13:55:46.423798688+08:00","level":"INFO","msg":"handler: started","stream_id":"0dixy2ov"}
+{"time":"2025-12-30T13:55:46.423878772+08:00","level":"INFO","msg":"stream: started","id":"0dixy2ov"}
+{"time":"2025-12-30T13:55:46.423909782+08:00","level":"INFO","msg":"writer: started","stream_id":"0dixy2ov"}
+{"time":"2025-12-30T13:55:46.423916574+08:00","level":"INFO","msg":"sender: started","stream_id":"0dixy2ov"}
+{"time":"2025-12-30T13:58:35.952931354+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T13:58:36.759732554+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T13:58:36.7668009+08:00","level":"INFO","msg":"stream: closing","id":"0dixy2ov"}
+{"time":"2025-12-30T13:58:36.766826097+08:00","level":"INFO","msg":"handler: closed","stream_id":"0dixy2ov"}
+{"time":"2025-12-30T13:58:36.766961515+08:00","level":"INFO","msg":"sender: closed","stream_id":"0dixy2ov"}
+{"time":"2025-12-30T13:58:36.766995139+08:00","level":"INFO","msg":"stream: closed","id":"0dixy2ov"}

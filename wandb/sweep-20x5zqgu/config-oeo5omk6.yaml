@@ -1,0 +1,68 @@
+wandb_version: 1
+
+adaptive_schedule:
+  value: false
+batch_size:
+  value: 8
+dropout:
+  value: 0
+gnn_hidden_dim:
+  value: 64
+gnn_out_dim:
+  value: 32
+lam_ent_yb:
+  value: 0
+lambda_causal_suf:
+  value: 0.2
+lambda_mask_dis:
+  value: 0.1
+lambda_mask_l1:
+  value: 0.2
+lambda_maskmean:
+  value: 0.05
+lambda_maskstd:
+  value: 0.05
+lambda_ortho:
+  value: 0.05
+lambda_pfs:
+  value: 0.5
+lambda_pfs_attr:
+  value: 0.1
+lambda_sensitive:
+  value: 0.05
+lambda_supcon:
+  value: 0.01
+lr:
+  value: 0.0004034033012409573
+mask_dis_mode:
+  value: norm_overlap
+mask_hidden_dim:
+  value: 64
+mask_target_mean:
+  value: 0.3
+mask_target_std:
+  value: 0.2
+mask_temperature:
+  value: 2
+mask_topk_ratio:
+  value: 0.2
+masker_lr_mult:
+  value: 2
+num_gnn_layers:
+  value: 3
+sched_decay:
+  value: 0.2
+sched_grow:
+  value: 0.06
+sched_patience:
+  value: 8
+stage1_ratio:
+  value: 0.35
+stage2_lr_mult:
+  value: 0.3
+supcon_temperature:
+  value: 0.05
+two_stage:
+  value: false
+weight_decay:
+  value: 0.0001

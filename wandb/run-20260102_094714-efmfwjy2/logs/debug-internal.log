@@ -1,0 +1,8 @@
+{"time":"2026-01-02T09:47:14.858615799+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-02T09:47:14.896736861+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-02T09:47:15.499178311+08:00","level":"INFO","msg":"stream: created new stream","id":"efmfwjy2"}
+{"time":"2026-01-02T09:47:15.499291789+08:00","level":"INFO","msg":"handler: started","stream_id":"efmfwjy2"}
+{"time":"2026-01-02T09:47:15.499456329+08:00","level":"INFO","msg":"stream: started","id":"efmfwjy2"}
+{"time":"2026-01-02T09:47:15.499479584+08:00","level":"INFO","msg":"writer: started","stream_id":"efmfwjy2"}
+{"time":"2026-01-02T09:47:15.499485346+08:00","level":"INFO","msg":"sender: started","stream_id":"efmfwjy2"}
+{"time":"2026-01-02T09:47:19.227033805+08:00","level":"ERROR","msg":"dispatch: no responder found: 2(@)"}

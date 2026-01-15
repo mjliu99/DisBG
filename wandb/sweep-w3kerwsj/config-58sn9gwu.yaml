@@ -1,0 +1,42 @@
+wandb_version: 1
+
+adaptive_schedule:
+  value: false
+batch_size:
+  value: 4
+dataset:
+  value: ADHD
+dropout:
+  value: 0
+folds:
+  value: 1
+gnn_hidden_dim:
+  value: 128
+lam_ent_yb:
+  value: 0.2
+lambda_causal_suf:
+  value: 0.5
+lambda_sensitive:
+  value: 0.05
+lr:
+  value: 0.00012600230214960097
+mask_dis_mode:
+  value: norm_overlap
+mask_target_mean:
+  value: 0.2
+mask_target_std:
+  value: 0.3
+mask_temperature:
+  value: 2
+mask_topk_ratio:
+  value: 0.2
+num_epochs:
+  value: 60
+num_gnn_layers:
+  value: 4
+two_stage:
+  value: false
+warmup_epoch:
+  value: 10
+weight_decay:
+  value: 0.0005

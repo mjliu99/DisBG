@@ -1,0 +1,13 @@
+{"time":"2026-01-01T10:12:45.165790309+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T10:12:45.197718657+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T10:12:45.941303195+08:00","level":"INFO","msg":"stream: created new stream","id":"mpdnsgvf"}
+{"time":"2026-01-01T10:12:45.941388083+08:00","level":"INFO","msg":"handler: started","stream_id":"mpdnsgvf"}
+{"time":"2026-01-01T10:12:45.941451928+08:00","level":"INFO","msg":"writer: started","stream_id":"mpdnsgvf"}
+{"time":"2026-01-01T10:12:45.941439922+08:00","level":"INFO","msg":"stream: started","id":"mpdnsgvf"}
+{"time":"2026-01-01T10:12:45.941482794+08:00","level":"INFO","msg":"sender: started","stream_id":"mpdnsgvf"}
+{"time":"2026-01-01T10:13:25.016311082+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T10:13:25.879938809+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T10:13:25.885879728+08:00","level":"INFO","msg":"stream: closing","id":"mpdnsgvf"}
+{"time":"2026-01-01T10:13:25.885903934+08:00","level":"INFO","msg":"handler: closed","stream_id":"mpdnsgvf"}
+{"time":"2026-01-01T10:13:25.886018237+08:00","level":"INFO","msg":"sender: closed","stream_id":"mpdnsgvf"}
+{"time":"2026-01-01T10:13:25.886031103+08:00","level":"INFO","msg":"stream: closed","id":"mpdnsgvf"}

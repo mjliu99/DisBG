@@ -1,0 +1,11 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-12-30T03:52:31.885546Z",
+  "program":  "<python with no main file>",
+  "email":  "mjliujade@gmail.com",
+  "root":  "/root/autodl-tmp/DisBG-Jade",
+  "host":  "autodl-container-9b594ca734-9105cd32",
+  "executable":  "/root/miniconda3/envs/disbg/bin/python",
+  "writerId":  "pp723ryk8lyk41k13xr4e929bk3vbrmw"
+}

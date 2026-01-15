@@ -1,0 +1,11 @@
+{"time":"2026-01-04T13:10:06.281192291+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-04T13:10:07.043204304+08:00","level":"INFO","msg":"stream: created new stream","id":"pcfxpymi"}
+{"time":"2026-01-04T13:10:07.043306539+08:00","level":"INFO","msg":"handler: started","stream_id":"pcfxpymi"}
+{"time":"2026-01-04T13:10:07.043403864+08:00","level":"INFO","msg":"stream: started","id":"pcfxpymi"}
+{"time":"2026-01-04T13:10:07.043426265+08:00","level":"INFO","msg":"writer: started","stream_id":"pcfxpymi"}
+{"time":"2026-01-04T13:10:07.043451617+08:00","level":"INFO","msg":"sender: started","stream_id":"pcfxpymi"}
+{"time":"2026-01-04T13:11:40.454607636+08:00","level":"INFO","msg":"stream: closing","id":"pcfxpymi"}
+{"time":"2026-01-04T13:11:41.657721277+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-04T13:11:42.487636117+08:00","level":"INFO","msg":"handler: closed","stream_id":"pcfxpymi"}
+{"time":"2026-01-04T13:11:42.487762194+08:00","level":"INFO","msg":"sender: closed","stream_id":"pcfxpymi"}
+{"time":"2026-01-04T13:11:42.487775974+08:00","level":"INFO","msg":"stream: closed","id":"pcfxpymi"}

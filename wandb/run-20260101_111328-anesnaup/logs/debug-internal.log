@@ -1,0 +1,13 @@
+{"time":"2026-01-01T11:13:28.690269178+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T11:13:28.721402249+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T11:13:29.338242619+08:00","level":"INFO","msg":"stream: created new stream","id":"anesnaup"}
+{"time":"2026-01-01T11:13:29.3383134+08:00","level":"INFO","msg":"handler: started","stream_id":"anesnaup"}
+{"time":"2026-01-01T11:13:29.33842571+08:00","level":"INFO","msg":"stream: started","id":"anesnaup"}
+{"time":"2026-01-01T11:13:29.338454365+08:00","level":"INFO","msg":"writer: started","stream_id":"anesnaup"}
+{"time":"2026-01-01T11:13:29.338460416+08:00","level":"INFO","msg":"sender: started","stream_id":"anesnaup"}
+{"time":"2026-01-01T11:14:09.412107372+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T11:14:10.261589988+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T11:14:10.267044124+08:00","level":"INFO","msg":"stream: closing","id":"anesnaup"}
+{"time":"2026-01-01T11:14:10.267070486+08:00","level":"INFO","msg":"handler: closed","stream_id":"anesnaup"}
+{"time":"2026-01-01T11:14:10.267188474+08:00","level":"INFO","msg":"sender: closed","stream_id":"anesnaup"}
+{"time":"2026-01-01T11:14:10.267201845+08:00","level":"INFO","msg":"stream: closed","id":"anesnaup"}

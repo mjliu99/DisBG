@@ -1,0 +1,228 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            qh4tt8ajvx5n5o5opneqrgfao83msmyf:
+                args:
+                    - --adaptive_schedule=True
+                    - --batch_size=16
+                    - --dataset=ADHD
+                    - --dropout=0.1
+                    - --folds=1
+                    - --gnn_hidden_dim=32
+                    - --lam_ent_yb=0
+                    - --lambda_causal_suf=1
+                    - --lambda_sensitive=0.02
+                    - --lr=0.00010921566842538343
+                    - --mask_dis_mode=norm_overlap
+                    - --mask_target_mean=0.2
+                    - --mask_target_std=0.3
+                    - --mask_temperature=2
+                    - --mask_topk_ratio=0.2
+                    - --num_epochs=60
+                    - --num_gnn_layers=4
+                    - --two_stage=True
+                    - --warmup_epoch=10
+                    - --weight_decay=0.001
+                    - --use_wandb
+                    - --wandb_group
+                    - ADHD_sweep_phase1
+                    - --no_wandb_per_fold
+                    - --wandb_log_agg
+                codePath: src/run_5fold.py
+                codePathLocal: src/run_5fold.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "25428942848"
+                email: mjliujade@gmail.com
+                executable: /root/miniconda3/envs/disbg/bin/python
+                host: autodl-container-9b594ca734-9105cd32
+                memory:
+                    total: "810178560000"
+                os: Linux-5.15.0-78-generic-x86_64-with-glibc2.17
+                program: src/run_5fold.py
+                python: CPython 3.8.20
+                root: /root/autodl-tmp/DisBG-Jade
+                startedAt: "2026-01-01T03:50:17.438125Z"
+                writerId: qh4tt8ajvx5n5o5opneqrgfao83msmyf
+        m: []
+        python_version: 3.8.20
+        t:
+            "3":
+                - 2
+                - 3
+                - 13
+                - 14
+                - 16
+                - 61
+            "4": 3.8.20
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+adaptive_schedule:
+    value: true
+base_seed:
+    value: 0
+batch_size:
+    value: 16
+cf_detach_zb_for_disease:
+    value: true
+cf_detach_zc:
+    value: false
+cwd:
+    value: null
+dataset:
+    value: ADHD
+disease_pos_weight:
+    value: null
+disease_pos_weight_mode:
+    value: none
+dropout:
+    value: 0.1
+ent_yb_head_only:
+    value: true
+eval_thr_grid:
+    value: coarse
+eval_thr_mode:
+    value: best_acc
+eval_use_best_thr:
+    value: true
+fixed_thr:
+    value: 0.5
+folds:
+    value: 1
+freeze_b_after:
+    value: 25
+freeze_c_after:
+    value: -1
+gnn_hidden_dim:
+    value: 32
+gnn_out_dim:
+    value: 64
+grad_clip:
+    value: 0
+lam_ent_yb:
+    value: 0
+lambda_causal_suf:
+    value: 1
+lambda_mask_dis:
+    value: 0.35
+lambda_mask_l1:
+    value: 0
+lambda_maskmean:
+    value: 0.3
+lambda_maskstd:
+    value: 0
+lambda_ortho:
+    value: 0.05
+lambda_pfs:
+    value: 0.3
+lambda_pfs_attr:
+    value: 0.1
+lambda_sensitive:
+    value: 0.02
+lambda_supcon:
+    value: 0.02
+lambda_task:
+    value: 1
+lr:
+    value: 0.00010921566842538343
+main:
+    value: main.py
+mask_dis_mode:
+    value: norm_overlap
+mask_hidden_dim:
+    value: 64
+mask_max_norm_overlap:
+    value: 1.4
+mask_min_mean:
+    value: 0.08
+mask_reg_weight:
+    value: 0.6
+mask_target_mean:
+    value: 0.2
+mask_target_std:
+    value: 0.3
+mask_temperature:
+    value: 2
+mask_topk_ratio:
+    value: 0.2
+masker_lr_mult:
+    value: 1
+num_age_classes:
+    value: 4
+num_classes:
+    value: 2
+num_epochs:
+    value: 60
+num_feats:
+    value: 116
+num_gnn_layers:
+    value: 4
+num_sex_classes:
+    value: 2
+patience:
+    value: 30
+python:
+    value: python
+results_dir:
+    value: results
+sched_decay:
+    value: 0.1
+sched_grow:
+    value: 0.04
+sched_patience:
+    value: 5
+score_f1_beta:
+    value: 0.5
+score_fair_alpha:
+    value: 0.01
+select_by:
+    value: val_score
+stage1_ratio:
+    value: 0.35
+stage2_lr_mult:
+    value: 0.3
+supcon_temperature:
+    value: 0.07
+two_stage:
+    value: true
+use_wandb:
+    value: true
+w_csuf_init:
+    value: 0.05
+w_csuf_max:
+    value: 0.2
+w_pfs_init:
+    value: 0.1
+w_pfs_max:
+    value: 0.35
+w_sup_init:
+    value: 0.05
+w_sup_max:
+    value: 0.25
+wandb_entity:
+    value: null
+wandb_group:
+    value: ADHD_sweep_phase1
+wandb_log_agg:
+    value: true
+wandb_mode:
+    value: null
+wandb_name_prefix:
+    value: null
+wandb_notes:
+    value: null
+wandb_per_fold:
+    value: false
+wandb_project:
+    value: DisBG-Jade
+wandb_tags:
+    value: ""
+warmup_epoch:
+    value: 10
+weight_decay:
+    value: 0.001

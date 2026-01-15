@@ -1,0 +1,33 @@
+{"time":"2026-01-02T13:15:00.336582433+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-02T13:15:00.38065272+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-02T13:15:00.956685545+08:00","level":"INFO","msg":"stream: created new stream","id":"m8nsq1tq"}
+{"time":"2026-01-02T13:15:00.956790941+08:00","level":"INFO","msg":"handler: started","stream_id":"m8nsq1tq"}
+{"time":"2026-01-02T13:15:00.95699461+08:00","level":"INFO","msg":"stream: started","id":"m8nsq1tq"}
+{"time":"2026-01-02T13:15:00.957003373+08:00","level":"INFO","msg":"writer: started","stream_id":"m8nsq1tq"}
+{"time":"2026-01-02T13:15:00.957028199+08:00","level":"INFO","msg":"sender: started","stream_id":"m8nsq1tq"}
+{"time":"2026-01-02T13:15:11.736954004+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":20}
+{"time":"2026-01-02T13:15:12.260947304+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":20}
+{"time":"2026-01-02T13:15:12.781680705+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":20}
+{"time":"2026-01-02T13:15:13.324326669+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":20}
+{"time":"2026-01-02T13:15:13.825168694+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":20}
+{"time":"2026-01-02T13:15:15.429449767+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":20}
+{"time":"2026-01-02T13:15:17.064811413+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":6,"current":20}
+{"time":"2026-01-02T13:15:18.643565449+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":7,"current":20}
+{"time":"2026-01-02T13:15:20.248514104+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":8,"current":20}
+{"time":"2026-01-02T13:15:21.865197927+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":9,"current":20}
+{"time":"2026-01-02T13:15:23.489007204+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":20}
+{"time":"2026-01-02T13:15:25.027955837+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":11,"current":20}
+{"time":"2026-01-02T13:15:26.597056762+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":12,"current":20}
+{"time":"2026-01-02T13:15:27.687963771+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":13,"current":20}
+{"time":"2026-01-02T13:15:29.203813512+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":14,"current":20}
+{"time":"2026-01-02T13:15:30.70208597+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":15,"current":20}
+{"time":"2026-01-02T13:15:31.872988553+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":16,"current":20}
+{"time":"2026-01-02T13:15:33.107628642+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":17,"current":20}
+{"time":"2026-01-02T13:15:34.682837653+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":18,"current":20}
+{"time":"2026-01-02T13:15:35.976536258+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":19,"current":20}
+{"time":"2026-01-02T13:16:13.439419805+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-02T13:16:15.215162998+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-02T13:16:15.219537864+08:00","level":"INFO","msg":"stream: closing","id":"m8nsq1tq"}
+{"time":"2026-01-02T13:16:15.219565335+08:00","level":"INFO","msg":"handler: closed","stream_id":"m8nsq1tq"}
+{"time":"2026-01-02T13:16:15.219760481+08:00","level":"INFO","msg":"sender: closed","stream_id":"m8nsq1tq"}
+{"time":"2026-01-02T13:16:15.21979898+08:00","level":"INFO","msg":"stream: closed","id":"m8nsq1tq"}

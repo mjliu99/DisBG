@@ -1,0 +1,63 @@
+{
+  "os":  "Linux-5.4.0-100-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2026-01-04T05:10:06.000036Z",
+  "args":  [
+    "--adaptive_schedule=True",
+    "--batch_size=8",
+    "--dataset=ABIDE",
+    "--dropout=0",
+    "--folds=1",
+    "--gnn_hidden_dim=128",
+    "--lam_ent_yb=0",
+    "--lambda_causal_suf=2",
+    "--lambda_sensitive=0.05",
+    "--lr=0.00033541206090277094",
+    "--mask_dis_mode=norm_overlap",
+    "--mask_target_mean=0.2",
+    "--mask_target_std=0.2",
+    "--mask_temperature=1",
+    "--mask_topk_ratio=0.1",
+    "--num_epochs=60",
+    "--num_gnn_layers=4",
+    "--two_stage=True",
+    "--warmup_epoch=10",
+    "--weight_decay=0.0005",
+    "--use_wandb",
+    "--wandb_group",
+    "ABIDE_sweep_phase1",
+    "--no_wandb_per_fold",
+    "--wandb_log_agg"
+  ],
+  "program":  "src/run_5fold.py",
+  "codePath":  "src/run_5fold.py",
+  "codePathLocal":  "src/run_5fold.py",
+  "email":  "mjliujade@gmail.com",
+  "root":  "/root/autodl-tmp/DisBG-Jade",
+  "host":  "autodl-container-41b14799f9-97743acb",
+  "executable":  "/root/miniconda3/envs/disbg/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "25422946304"
+    }
+  },
+  "memory":  {
+    "total":  "540683841536"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada",
+      "uuid":  "GPU-f8350928-aa32-b65d-ae62-10bda2b98830"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "8c3tuaoq5afjew1xgygk91o59i1pvktl"
+}

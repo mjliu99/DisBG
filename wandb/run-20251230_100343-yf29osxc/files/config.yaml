@@ -1,0 +1,239 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            frblw9lx2fem5ecsqgbdr5tnsxnftkrg:
+                args:
+                    - ADHD
+                    - --use_wandb
+                    - --wandb_group
+                    - ADHD_sweep_stageB
+                    - --no_wandb_per_fold
+                    - --wandb_log_agg
+                    - --folds
+                    - "1"
+                    - --num_epochs
+                    - "60"
+                    - --warmup_epoch
+                    - "10"
+                    - --adaptive_schedule=False
+                    - --batch_size=8
+                    - --dropout=0.2
+                    - --gnn_hidden_dim=128
+                    - --gnn_out_dim=128
+                    - --lam_ent_yb=0.2
+                    - --lambda_causal_suf=0.2
+                    - --lambda_mask_dis=0.02
+                    - --lambda_mask_l1=0.1
+                    - --lambda_maskmean=0.1
+                    - --lambda_maskstd=0.1
+                    - --lambda_ortho=0.02
+                    - --lambda_pfs=0.3
+                    - --lambda_pfs_attr=0.2
+                    - --lambda_sensitive=0.05
+                    - --lambda_supcon=0.05
+                    - --lr=0.0003655972151028301
+                    - --mask_dis_mode=norm_overlap
+                    - --mask_hidden_dim=64
+                    - --mask_target_mean=0.3
+                    - --mask_target_std=0.3
+                    - --mask_temperature=2
+                    - --mask_topk_ratio=0.1
+                    - --masker_lr_mult=2
+                    - --num_gnn_layers=4
+                    - --sched_decay=0.05
+                    - --sched_grow=0.04
+                    - --sched_patience=8
+                    - --stage1_ratio=0.5
+                    - --stage2_lr_mult=0.2
+                    - --supcon_temperature=0.05
+                    - --two_stage=False
+                    - --weight_decay=0.001
+                codePath: src/run_5fold.py
+                codePathLocal: src/run_5fold.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "32212254720"
+                        used: "6422499328"
+                email: mjliujade@gmail.com
+                executable: /root/miniconda3/envs/disbg/bin/python
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "51527024640"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-8b9cd383-0d80-dc7d-6e74-cda5fe91adc5
+                host: autodl-container-9b594ca734-9105cd32
+                memory:
+                    total: "810178560000"
+                os: Linux-5.15.0-78-generic-x86_64-with-glibc2.17
+                program: src/run_5fold.py
+                python: CPython 3.8.20
+                root: /root/autodl-tmp/DisBG-Jade
+                startedAt: "2025-12-30T02:03:43.496544Z"
+                writerId: frblw9lx2fem5ecsqgbdr5tnsxnftkrg
+        m: []
+        python_version: 3.8.20
+        t:
+            "3":
+                - 2
+                - 3
+                - 13
+                - 14
+                - 16
+                - 61
+            "4": 3.8.20
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+adaptive_schedule:
+    value: false
+base_seed:
+    value: 0
+batch_size:
+    value: 8
+cf_detach_zb_for_disease:
+    value: false
+cf_detach_zc:
+    value: true
+cwd:
+    value: null
+dataset:
+    value: ADHD
+dropout:
+    value: 0.2
+fixed_thr:
+    value: 0.5
+folds:
+    value: 1
+gnn_hidden_dim:
+    value: 128
+gnn_out_dim:
+    value: 128
+grad_clip:
+    value: 0
+lam_ent_yb:
+    value: 0.2
+lambda_causal_suf:
+    value: 0.2
+lambda_mask_dis:
+    value: 0.02
+lambda_mask_l1:
+    value: 0.1
+lambda_maskmean:
+    value: 0.1
+lambda_maskstd:
+    value: 0.1
+lambda_ortho:
+    value: 0.02
+lambda_pfs:
+    value: 0.3
+lambda_pfs_attr:
+    value: 0.2
+lambda_sensitive:
+    value: 0.05
+lambda_supcon:
+    value: 0.05
+lambda_task:
+    value: 1
+lr:
+    value: 0.0003655972151028301
+main:
+    value: main.py
+mask_dis_mode:
+    value: norm_overlap
+mask_hidden_dim:
+    value: 64
+mask_max_norm_overlap:
+    value: 1.4
+mask_min_mean:
+    value: 0.08
+mask_target_mean:
+    value: 0.3
+mask_target_std:
+    value: 0.3
+mask_temperature:
+    value: 2
+mask_topk_ratio:
+    value: 0.1
+masker_lr_mult:
+    value: 2
+num_age_classes:
+    value: 4
+num_classes:
+    value: 2
+num_epochs:
+    value: 60
+num_feats:
+    value: 116
+num_gnn_layers:
+    value: 4
+num_sex_classes:
+    value: 2
+patience:
+    value: 30
+python:
+    value: python
+results_dir:
+    value: results
+sched_decay:
+    value: 0.05
+sched_grow:
+    value: 0.04
+sched_patience:
+    value: 8
+score_f1_beta:
+    value: 0.5
+score_fair_alpha:
+    value: 0.01
+select_by:
+    value: val_score
+stage1_ratio:
+    value: 0.5
+stage2_lr_mult:
+    value: 0.2
+supcon_temperature:
+    value: 0.05
+two_stage:
+    value: false
+use_wandb:
+    value: true
+w_csuf_init:
+    value: 0.05
+w_csuf_max:
+    value: 0.2
+w_pfs_init:
+    value: 0.1
+w_pfs_max:
+    value: 0.35
+w_sup_init:
+    value: 0.05
+w_sup_max:
+    value: 0.25
+wandb_entity:
+    value: null
+wandb_group:
+    value: ADHD_sweep_stageB
+wandb_log_agg:
+    value: true
+wandb_mode:
+    value: null
+wandb_name_prefix:
+    value: null
+wandb_notes:
+    value: null
+wandb_per_fold:
+    value: false
+wandb_project:
+    value: DisBG-Jade
+wandb_tags:
+    value: ""
+warmup_epoch:
+    value: 10
+weight_decay:
+    value: 0.001

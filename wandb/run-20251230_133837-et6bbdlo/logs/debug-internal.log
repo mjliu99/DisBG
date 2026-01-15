@@ -1,0 +1,12 @@
+{"time":"2025-12-30T13:38:37.328098505+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T13:38:38.251890299+08:00","level":"INFO","msg":"stream: created new stream","id":"et6bbdlo"}
+{"time":"2025-12-30T13:38:38.252002627+08:00","level":"INFO","msg":"handler: started","stream_id":"et6bbdlo"}
+{"time":"2025-12-30T13:38:38.252103672+08:00","level":"INFO","msg":"stream: started","id":"et6bbdlo"}
+{"time":"2025-12-30T13:38:38.252144076+08:00","level":"INFO","msg":"writer: started","stream_id":"et6bbdlo"}
+{"time":"2025-12-30T13:38:38.252154813+08:00","level":"INFO","msg":"sender: started","stream_id":"et6bbdlo"}
+{"time":"2025-12-30T13:39:20.463386553+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T13:39:21.140230357+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T13:39:21.147082225+08:00","level":"INFO","msg":"stream: closing","id":"et6bbdlo"}
+{"time":"2025-12-30T13:39:21.147110682+08:00","level":"INFO","msg":"handler: closed","stream_id":"et6bbdlo"}
+{"time":"2025-12-30T13:39:21.147253212+08:00","level":"INFO","msg":"sender: closed","stream_id":"et6bbdlo"}
+{"time":"2025-12-30T13:39:21.147266918+08:00","level":"INFO","msg":"stream: closed","id":"et6bbdlo"}

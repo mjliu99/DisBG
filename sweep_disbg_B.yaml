@@ -1,0 +1,158 @@
+# sweep_disbg_stageA_singlefold.yaml
+program: src/run_5fold.py
+method: bayes
+
+metric:
+  name: sum/agg/val.val_score_bestthr_mean
+  goal: maximize
+
+entity: mjliujade-federation-university-australia
+project: DisBG-B
+
+command:
+  - ${env}
+  - python
+  - src/run_5fold.py
+  - ${args}
+  - --use_wandb
+  - --no_wandb_per_fold
+
+# 可选：加速 bad runs（不想用可删）
+early_terminate:
+  type: hyperband
+  min_iter: 10
+
+parameters:
+  # ===== basic =====
+  dataset:
+    value: ADHD
+  folds:
+    value: 1
+  base_seed:
+    value: 0
+  results_dir:
+    value: results
+
+  # ===== eval / threshold =====
+  eval_thr_mode:
+    value: best_f1
+  eval_use_best_thr:
+    value: true
+  eval_thr_grid:
+    value: fine
+  select_by:
+    value: val_score_bestthr
+  score_f1_beta:
+    value: 0.5
+  score_fair_alpha:
+    value: 0.01
+
+  # ===== imbalance =====
+  disease_pos_weight_mode:
+    value: sqrt
+
+  # ===== training (固定) =====
+  num_epochs:
+    value: 100
+  warmup_epoch:
+    value: 10
+  patience:
+    value: 30
+  batch_size:
+    value: 8
+  lr:
+    value: 0.0003
+  weight_decay:
+    value: 0.0005
+  masker_lr_mult:
+    value: 1.0
+  grad_clip:
+    value: 0.0
+
+  # ===== model (固定) =====
+  gnn_hidden_dim:
+    value: 64
+  gnn_out_dim:
+    value: 64
+  num_gnn_layers:
+    value: 2
+  dropout:
+    value: 0.0
+  num_feats:
+    value: 116
+
+  # ===== two-stage & adaptive schedule =====
+  two_stage:
+    value: true
+  adaptive_schedule:
+    value: true
+  stage1_ratio:
+    value: 0.35
+  stage2_lr_mult:
+    value: 0.30
+
+  # ===== structure switches =====
+  cf_detach_zb_for_disease:
+    value: true
+  ent_yb_head_only:
+    value: true
+
+  # ===== freeze policy =====
+  freeze_b_after:
+    values: [15, 20]
+
+  # ===== mask behaviour (fixed mean/std/topk + sweep temperature) =====
+  mask_target_mean:
+    value: 0.50
+  lambda_maskmean:
+    value: 0.30
+
+  mask_target_std:
+    value: 0.05
+  lambda_maskstd:
+    value: 0.00
+
+  mask_topk_ratio:
+    value: 0.20
+  mask_temperature:
+    values: [0.5, 0.7, 1.0]
+
+  # mask regs
+  mask_reg_weight:
+    value: 0.60
+  lambda_mask_dis:
+    value: 0.12
+  mask_dis_mode:
+    value: norm_overlap
+  lambda_mask_l1:
+    value: 0.00
+
+  # ===== fairness / leakage knobs =====
+  lambda_sensitive:
+    values: [0.005, 0.01, 0.02]
+  lam_ent_yb:
+    values: [0.01, 0.02, 0.04]
+
+  # 其余损失固定
+  lambda_task:
+    value: 1.0
+  lambda_pfs:
+    value: 0.12
+  lambda_pfs_attr:
+    value: 0.10
+  lambda_supcon:
+    value: 0.02
+  lambda_ortho:
+    value: 0.05
+  supcon_temperature:
+    value: 0.07
+  lambda_causal_suf:
+    value: 1.0
+
+  # ===== naming =====
+  wandb_name_prefix:
+    value: ADHD_stageA_1fold
+
+  # ===== run cap (会作为 extra arg 传给 main.py) =====
+  run_cap:
+    value: 24

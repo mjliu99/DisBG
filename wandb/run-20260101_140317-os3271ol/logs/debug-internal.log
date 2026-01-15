@@ -1,0 +1,13 @@
+{"time":"2026-01-01T14:03:17.877236119+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T14:03:17.906672342+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T14:03:18.534580282+08:00","level":"INFO","msg":"stream: created new stream","id":"os3271ol"}
+{"time":"2026-01-01T14:03:18.534697276+08:00","level":"INFO","msg":"handler: started","stream_id":"os3271ol"}
+{"time":"2026-01-01T14:03:18.534908999+08:00","level":"INFO","msg":"stream: started","id":"os3271ol"}
+{"time":"2026-01-01T14:03:18.534938923+08:00","level":"INFO","msg":"writer: started","stream_id":"os3271ol"}
+{"time":"2026-01-01T14:03:18.53494362+08:00","level":"INFO","msg":"sender: started","stream_id":"os3271ol"}
+{"time":"2026-01-01T14:04:16.416637457+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T14:04:17.077621458+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T14:04:17.08467701+08:00","level":"INFO","msg":"stream: closing","id":"os3271ol"}
+{"time":"2026-01-01T14:04:17.08470535+08:00","level":"INFO","msg":"handler: closed","stream_id":"os3271ol"}
+{"time":"2026-01-01T14:04:17.084826002+08:00","level":"INFO","msg":"sender: closed","stream_id":"os3271ol"}
+{"time":"2026-01-01T14:04:17.084840297+08:00","level":"INFO","msg":"stream: closed","id":"os3271ol"}

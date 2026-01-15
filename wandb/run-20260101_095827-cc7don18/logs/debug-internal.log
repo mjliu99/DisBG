@@ -1,0 +1,13 @@
+{"time":"2026-01-01T09:58:27.876521956+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T09:58:27.907237227+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T09:58:28.501650392+08:00","level":"INFO","msg":"stream: created new stream","id":"cc7don18"}
+{"time":"2026-01-01T09:58:28.501779853+08:00","level":"INFO","msg":"handler: started","stream_id":"cc7don18"}
+{"time":"2026-01-01T09:58:28.501951574+08:00","level":"INFO","msg":"stream: started","id":"cc7don18"}
+{"time":"2026-01-01T09:58:28.501979918+08:00","level":"INFO","msg":"writer: started","stream_id":"cc7don18"}
+{"time":"2026-01-01T09:58:28.501993088+08:00","level":"INFO","msg":"sender: started","stream_id":"cc7don18"}
+{"time":"2026-01-01T09:59:12.995071877+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T09:59:13.696921315+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T09:59:13.701482358+08:00","level":"INFO","msg":"stream: closing","id":"cc7don18"}
+{"time":"2026-01-01T09:59:13.701508399+08:00","level":"INFO","msg":"handler: closed","stream_id":"cc7don18"}
+{"time":"2026-01-01T09:59:13.701627561+08:00","level":"INFO","msg":"sender: closed","stream_id":"cc7don18"}
+{"time":"2026-01-01T09:59:13.701640807+08:00","level":"INFO","msg":"stream: closed","id":"cc7don18"}

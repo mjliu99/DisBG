@@ -1,0 +1,52 @@
+wandb_version: 1
+
+adaptive_schedule:
+  value: true
+disease_pos_weight_mode:
+  value: none
+dropout:
+  value: 0.2
+eval_thr_grid:
+  value: fine
+eval_thr_mode:
+  value: best_acc
+eval_use_best_thr:
+  value: true
+gnn_hidden_dim:
+  value: 96
+gnn_out_dim:
+  value: 64
+grad_clip:
+  value: 1
+lam_ent_yb:
+  value: 0.1
+lambda_causal_suf:
+  value: 0.5
+lambda_mask_dis:
+  value: 0.15
+lambda_mask_l1:
+  value: 0
+lambda_maskmean:
+  value: 0.05
+lambda_maskstd:
+  value: 0
+lambda_sensitive:
+  value: 0.06
+lr:
+  value: 0.0005213573571728436
+mask_dis_mode:
+  value: norm_overlap
+mask_reg_weight:
+  value: 0.8
+mask_target_mean:
+  value: 0.16
+mask_target_std:
+  value: 0.15
+mask_topk_ratio:
+  value: 0.1
+num_gnn_layers:
+  value: 2
+two_stage:
+  value: true
+weight_decay:
+  value: 0.003427503700586835

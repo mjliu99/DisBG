@@ -1,0 +1,12 @@
+{"time":"2025-12-30T09:23:00.833487934+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T09:23:01.757443669+08:00","level":"INFO","msg":"stream: created new stream","id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:01.75756753+08:00","level":"INFO","msg":"handler: started","stream_id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:01.757728922+08:00","level":"INFO","msg":"stream: started","id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:01.757754517+08:00","level":"INFO","msg":"sender: started","stream_id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:01.757755896+08:00","level":"INFO","msg":"writer: started","stream_id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:52.730326298+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T09:23:53.408817878+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T09:23:53.414203549+08:00","level":"INFO","msg":"stream: closing","id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:53.414231202+08:00","level":"INFO","msg":"handler: closed","stream_id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:53.414358476+08:00","level":"INFO","msg":"sender: closed","stream_id":"kzyvet4i"}
+{"time":"2025-12-30T09:23:53.414394306+08:00","level":"INFO","msg":"stream: closed","id":"kzyvet4i"}

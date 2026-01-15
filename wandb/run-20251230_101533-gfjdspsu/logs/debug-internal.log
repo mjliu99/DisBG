@@ -1,0 +1,12 @@
+{"time":"2025-12-30T10:15:33.332249075+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T10:15:34.099169425+08:00","level":"INFO","msg":"stream: created new stream","id":"gfjdspsu"}
+{"time":"2025-12-30T10:15:34.099281427+08:00","level":"INFO","msg":"handler: started","stream_id":"gfjdspsu"}
+{"time":"2025-12-30T10:15:34.099508948+08:00","level":"INFO","msg":"stream: started","id":"gfjdspsu"}
+{"time":"2025-12-30T10:15:34.099522728+08:00","level":"INFO","msg":"writer: started","stream_id":"gfjdspsu"}
+{"time":"2025-12-30T10:15:34.099536611+08:00","level":"INFO","msg":"sender: started","stream_id":"gfjdspsu"}
+{"time":"2025-12-30T10:16:49.560575094+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T10:16:50.49850834+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T10:16:50.505679921+08:00","level":"INFO","msg":"stream: closing","id":"gfjdspsu"}
+{"time":"2025-12-30T10:16:50.505703418+08:00","level":"INFO","msg":"handler: closed","stream_id":"gfjdspsu"}
+{"time":"2025-12-30T10:16:50.505818843+08:00","level":"INFO","msg":"sender: closed","stream_id":"gfjdspsu"}
+{"time":"2025-12-30T10:16:50.50583234+08:00","level":"INFO","msg":"stream: closed","id":"gfjdspsu"}

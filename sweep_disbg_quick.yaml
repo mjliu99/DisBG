@@ -1,0 +1,69 @@
+program: src/run_5fold.py
+method: bayes
+
+metric:
+  name: val/val_score_bestthr
+  goal: maximize
+
+entity: mjliujade-federation-university-australia
+project: DisBG-ABIDE
+
+parameters:
+  dataset:
+    value: ABIDE
+  folds:
+    value: 1
+  num_epochs:
+    value: 60
+  warmup_epoch:
+    value: 10
+
+  gnn_hidden_dim:
+    values: [32, 128]
+  num_gnn_layers:
+    values: [3, 4]
+  dropout:
+    values: [0.0, 0.1, 0.2]
+
+  lr:
+    distribution: log_uniform_values
+    min: 1e-4
+    max: 5e-4
+  weight_decay:
+    values: [1e-4, 5e-4, 1e-3]
+  batch_size:
+    values: [4, 8, 16]
+
+  lambda_sensitive:
+    values: [0.02, 0.05]
+  lambda_causal_suf:
+    values: [0.5, 1.0, 2.0]
+  lam_ent_yb:
+    values: [0.0, 0.2, 0.4]
+
+  mask_dis_mode:
+    value: norm_overlap
+  mask_target_mean:
+    values: [0.2, 0.3]
+  mask_target_std:
+    values: [0.2, 0.3]
+  mask_temperature:
+    values: [1, 2]
+  mask_topk_ratio:
+    values: [0.05, 0.1, 0.2]
+
+  two_stage:
+    values: [true, false]
+  adaptive_schedule:
+    values: [true, false]
+
+command:
+  - ${env}
+  - python
+  - ${program}
+  - ${args}
+  - --use_wandb
+  - --wandb_group
+  - ABIDE_sweep_phase1
+  - --no_wandb_per_fold
+  - --wandb_log_agg

@@ -1,0 +1,83 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-12-30T02:13:09.056311Z",
+  "args":  [
+    "ADHD",
+    "--use_wandb",
+    "--wandb_group",
+    "ADHD_sweep_stageB",
+    "--no_wandb_per_fold",
+    "--wandb_log_agg",
+    "--folds",
+    "1",
+    "--num_epochs",
+    "60",
+    "--warmup_epoch",
+    "10",
+    "--adaptive_schedule=True",
+    "--batch_size=8",
+    "--dropout=0",
+    "--gnn_hidden_dim=128",
+    "--gnn_out_dim=32",
+    "--lam_ent_yb=0.4",
+    "--lambda_causal_suf=0.5",
+    "--lambda_mask_dis=0.05",
+    "--lambda_mask_l1=0.1",
+    "--lambda_maskmean=0.2",
+    "--lambda_maskstd=0.1",
+    "--lambda_ortho=0.05",
+    "--lambda_pfs=0.5",
+    "--lambda_pfs_attr=0.05",
+    "--lambda_sensitive=0.05",
+    "--lambda_supcon=0.05",
+    "--lr=0.00031141986702271513",
+    "--mask_dis_mode=norm_overlap",
+    "--mask_hidden_dim=64",
+    "--mask_target_mean=0.2",
+    "--mask_target_std=0.3",
+    "--mask_temperature=0.5",
+    "--mask_topk_ratio=0.1",
+    "--masker_lr_mult=2",
+    "--num_gnn_layers=4",
+    "--sched_decay=0.1",
+    "--sched_grow=0.02",
+    "--sched_patience=8",
+    "--stage1_ratio=0.5",
+    "--stage2_lr_mult=0.2",
+    "--supcon_temperature=0.1",
+    "--two_stage=False",
+    "--weight_decay=0.001"
+  ],
+  "program":  "src/run_5fold.py",
+  "codePath":  "src/run_5fold.py",
+  "codePathLocal":  "src/run_5fold.py",
+  "email":  "mjliujade@gmail.com",
+  "root":  "/root/autodl-tmp/DisBG-Jade",
+  "host":  "autodl-container-9b594ca734-9105cd32",
+  "executable":  "/root/miniconda3/envs/disbg/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "6422528000"
+    }
+  },
+  "memory":  {
+    "total":  "810178560000"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  16384,
+      "architecture":  "Ada",
+      "uuid":  "GPU-8b9cd383-0d80-dc7d-6e74-cda5fe91adc5"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "1qngr3uosmzpg0bxh647uqx6sur6lc08"
+}

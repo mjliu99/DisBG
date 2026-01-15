@@ -1,0 +1,13 @@
+{"time":"2026-01-01T14:23:13.643463778+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-01T14:23:13.675536708+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-01T14:23:14.291847828+08:00","level":"INFO","msg":"stream: created new stream","id":"ztess6wt"}
+{"time":"2026-01-01T14:23:14.291965971+08:00","level":"INFO","msg":"handler: started","stream_id":"ztess6wt"}
+{"time":"2026-01-01T14:23:14.292218966+08:00","level":"INFO","msg":"stream: started","id":"ztess6wt"}
+{"time":"2026-01-01T14:23:14.292247793+08:00","level":"INFO","msg":"writer: started","stream_id":"ztess6wt"}
+{"time":"2026-01-01T14:23:14.292251326+08:00","level":"INFO","msg":"sender: started","stream_id":"ztess6wt"}
+{"time":"2026-01-01T14:24:49.135288902+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-01T14:24:50.03643664+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-01T14:24:50.043644543+08:00","level":"INFO","msg":"stream: closing","id":"ztess6wt"}
+{"time":"2026-01-01T14:24:50.043671238+08:00","level":"INFO","msg":"handler: closed","stream_id":"ztess6wt"}
+{"time":"2026-01-01T14:24:50.043791697+08:00","level":"INFO","msg":"sender: closed","stream_id":"ztess6wt"}
+{"time":"2026-01-01T14:24:50.04380438+08:00","level":"INFO","msg":"stream: closed","id":"ztess6wt"}

@@ -1,0 +1,13 @@
+{"time":"2026-01-02T14:15:45.637122963+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-02T14:15:45.67771114+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-02T14:15:46.304989138+08:00","level":"INFO","msg":"stream: created new stream","id":"fcl4drts"}
+{"time":"2026-01-02T14:15:46.305091675+08:00","level":"INFO","msg":"handler: started","stream_id":"fcl4drts"}
+{"time":"2026-01-02T14:15:46.305383265+08:00","level":"INFO","msg":"stream: started","id":"fcl4drts"}
+{"time":"2026-01-02T14:15:46.305409956+08:00","level":"INFO","msg":"writer: started","stream_id":"fcl4drts"}
+{"time":"2026-01-02T14:15:46.305412956+08:00","level":"INFO","msg":"sender: started","stream_id":"fcl4drts"}
+{"time":"2026-01-02T14:16:58.845958043+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-02T14:16:59.475359098+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-02T14:16:59.482314006+08:00","level":"INFO","msg":"stream: closing","id":"fcl4drts"}
+{"time":"2026-01-02T14:16:59.482340471+08:00","level":"INFO","msg":"handler: closed","stream_id":"fcl4drts"}
+{"time":"2026-01-02T14:16:59.482469518+08:00","level":"INFO","msg":"sender: closed","stream_id":"fcl4drts"}
+{"time":"2026-01-02T14:16:59.482509096+08:00","level":"INFO","msg":"stream: closed","id":"fcl4drts"}

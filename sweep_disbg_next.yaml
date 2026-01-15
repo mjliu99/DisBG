@@ -1,0 +1,80 @@
+# sweep_disbg_perf_fix_FINAL.yaml
+program: src/run_5fold.py
+method: bayes
+
+metric:
+  name: test.f1_score
+  goal: maximize
+
+entity: mjliujade-federation-university-australia
+project: DisBG
+
+command:
+  - ${env}
+  - python
+  - src/run_5fold.py
+  - ${args}
+  - --use_wandb
+  - --no_wandb_per_fold
+
+parameters:
+  # ===== basic =====
+  dataset:
+    value: ADHD
+  folds:
+    value: 5
+  base_seed:
+    value: 0
+  results_dir:
+    value: results
+
+  # ===== thresholding =====
+  eval_thr_mode:
+    value: best_f1
+  eval_use_best_thr:
+    value: true
+  eval_thr_grid:
+    value: fine
+
+  # ===== imbalance =====
+  disease_pos_weight_mode:
+    value: sqrt
+
+  # ===== training =====
+  lr:
+    value: 0.0001
+  weight_decay:
+    value: 0.0005
+  batch_size:
+    value: 8
+
+  # ===== performance-fix knobs =====
+  lambda_sensitive:
+    values: [0.008, 0.012, 0.016, 0.02]
+  lam_ent_yb:
+    values: [0.02, 0.04, 0.06]
+  lambda_pfs:
+    values: [0.10, 0.12, 0.15, 0.18]
+  lambda_mask_dis:
+    values: [0.08, 0.12, 0.16]
+  lambda_mask_l1:
+    values: [0.0, 0.01, 0.02]
+
+  # ===== schedule =====
+  two_stage:
+    value: true
+  adaptive_schedule:
+    value: true
+  stage2_lr_mult:
+    value: 0.3
+  freeze_b_after:
+    values: [15, 20, 25]
+
+  # ===== structure =====
+  cf_detach_zb_for_disease:
+    value: true
+  ent_yb_head_only:
+    value: true
+
+  run_cap:
+    value: 30

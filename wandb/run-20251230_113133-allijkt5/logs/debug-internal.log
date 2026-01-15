@@ -1,0 +1,12 @@
+{"time":"2025-12-30T11:31:33.672118154+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T11:31:34.617444881+08:00","level":"INFO","msg":"stream: created new stream","id":"allijkt5"}
+{"time":"2025-12-30T11:31:34.617573617+08:00","level":"INFO","msg":"handler: started","stream_id":"allijkt5"}
+{"time":"2025-12-30T11:31:34.617837979+08:00","level":"INFO","msg":"stream: started","id":"allijkt5"}
+{"time":"2025-12-30T11:31:34.617864046+08:00","level":"INFO","msg":"writer: started","stream_id":"allijkt5"}
+{"time":"2025-12-30T11:31:34.617865116+08:00","level":"INFO","msg":"sender: started","stream_id":"allijkt5"}
+{"time":"2025-12-30T11:32:40.864878873+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T11:32:41.513947997+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T11:32:41.521426172+08:00","level":"INFO","msg":"stream: closing","id":"allijkt5"}
+{"time":"2025-12-30T11:32:41.521450598+08:00","level":"INFO","msg":"handler: closed","stream_id":"allijkt5"}
+{"time":"2025-12-30T11:32:41.521565007+08:00","level":"INFO","msg":"sender: closed","stream_id":"allijkt5"}
+{"time":"2025-12-30T11:32:41.521595192+08:00","level":"INFO","msg":"stream: closed","id":"allijkt5"}

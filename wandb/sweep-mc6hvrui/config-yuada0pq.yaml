@@ -1,0 +1,106 @@
+wandb_version: 1
+
+adaptive_schedule:
+  value: true
+base_seed:
+  value: 0
+batch_size:
+  value: 8
+cf_detach_zb_for_disease:
+  value: true
+dataset:
+  value: ADHD
+disease_pos_weight_mode:
+  value: sqrt
+dropout:
+  value: 0
+ent_yb_head_only:
+  value: true
+eval_thr_grid:
+  value: fine
+eval_thr_mode:
+  value: best_f1
+eval_use_best_thr:
+  value: true
+folds:
+  value: 1
+freeze_b_after:
+  value: 20
+gnn_hidden_dim:
+  value: 64
+gnn_out_dim:
+  value: 64
+grad_clip:
+  value: 0
+lam_ent_yb:
+  value: 0.04
+lambda_causal_suf:
+  value: 1
+lambda_mask_dis:
+  value: 0.12
+lambda_mask_l1:
+  value: 0
+lambda_maskmean:
+  value: 0.3
+lambda_maskstd:
+  value: 0
+lambda_ortho:
+  value: 0.05
+lambda_pfs:
+  value: 0.12
+lambda_pfs_attr:
+  value: 0.1
+lambda_sensitive:
+  value: 0.005
+lambda_supcon:
+  value: 0.02
+lambda_task:
+  value: 1
+lr:
+  value: 0.0003
+mask_dis_mode:
+  value: norm_overlap
+mask_reg_weight:
+  value: 0.6
+mask_target_mean:
+  value: 0.5
+mask_target_std:
+  value: 0.05
+mask_temperature:
+  value: 0.7
+mask_topk_ratio:
+  value: 0.2
+masker_lr_mult:
+  value: 1
+num_epochs:
+  value: 100
+num_feats:
+  value: 116
+num_gnn_layers:
+  value: 2
+patience:
+  value: 30
+results_dir:
+  value: results
+run_cap:
+  value: 24
+score_f1_beta:
+  value: 0.5
+score_fair_alpha:
+  value: 0.01
+select_by:
+  value: val_score_bestthr
+stage1_ratio:
+  value: 0.35
+stage2_lr_mult:
+  value: 0.3
+supcon_temperature:
+  value: 0.07
+two_stage:
+  value: true
+wandb_name_prefix:
+  value: ADHD_stageA_1fold
+warmup_epoch:
+  value: 10
+weight_decay:
+  value: 0.0005

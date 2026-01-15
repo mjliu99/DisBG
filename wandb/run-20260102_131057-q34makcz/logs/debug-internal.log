@@ -1,0 +1,28 @@
+{"time":"2026-01-02T13:10:57.874614409+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-02T13:10:57.914568281+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not create portfile"}
+{"time":"2026-01-02T13:10:58.823312677+08:00","level":"INFO","msg":"stream: created new stream","id":"q34makcz"}
+{"time":"2026-01-02T13:10:58.823385509+08:00","level":"INFO","msg":"handler: started","stream_id":"q34makcz"}
+{"time":"2026-01-02T13:10:58.823466512+08:00","level":"INFO","msg":"stream: started","id":"q34makcz"}
+{"time":"2026-01-02T13:10:58.823487873+08:00","level":"INFO","msg":"writer: started","stream_id":"q34makcz"}
+{"time":"2026-01-02T13:10:58.82350737+08:00","level":"INFO","msg":"sender: started","stream_id":"q34makcz"}
+{"time":"2026-01-02T13:11:09.714777855+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":0,"current":20}
+{"time":"2026-01-02T13:11:10.2351501+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":20}
+{"time":"2026-01-02T13:11:10.752025071+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":2,"current":20}
+{"time":"2026-01-02T13:11:11.280456802+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":3,"current":20}
+{"time":"2026-01-02T13:11:11.808268274+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":4,"current":20}
+{"time":"2026-01-02T13:11:13.42980533+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":5,"current":20}
+{"time":"2026-01-02T13:11:15.058261008+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":6,"current":20}
+{"time":"2026-01-02T13:11:16.620412543+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":7,"current":20}
+{"time":"2026-01-02T13:11:17.681755209+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":8,"current":20}
+{"time":"2026-01-02T13:11:18.681981252+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":9,"current":20}
+{"time":"2026-01-02T13:11:20.011693881+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":10,"current":20}
+{"time":"2026-01-02T13:11:21.619731742+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":11,"current":20}
+{"time":"2026-01-02T13:11:23.252193479+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":12,"current":20}
+{"time":"2026-01-02T13:11:24.874580481+08:00","level":"WARN","msg":"handler: ignoring partial history record","step":13,"current":20}
+{"time":"2026-01-02T13:11:27.477115217+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-02T13:11:28.015798713+08:00","level":"INFO","msg":"stream: closing","id":"q34makcz"}
+{"time":"2026-01-02T13:11:28.015969793+08:00","level":"ERROR","msg":"sender: sendSummary called after exit"}
+{"time":"2026-01-02T13:11:28.016247436+08:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2026-01-02T13:11:28.749868175+08:00","level":"INFO","msg":"handler: closed","stream_id":"q34makcz"}
+{"time":"2026-01-02T13:11:28.750057886+08:00","level":"INFO","msg":"sender: closed","stream_id":"q34makcz"}
+{"time":"2026-01-02T13:11:28.750136033+08:00","level":"INFO","msg":"stream: closed","id":"q34makcz"}

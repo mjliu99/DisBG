@@ -1,0 +1,12 @@
+{"time":"2025-12-30T15:42:19.095558785+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T15:42:19.970948645+08:00","level":"INFO","msg":"stream: created new stream","id":"uk20a103"}
+{"time":"2025-12-30T15:42:19.971085446+08:00","level":"INFO","msg":"handler: started","stream_id":"uk20a103"}
+{"time":"2025-12-30T15:42:19.971316458+08:00","level":"INFO","msg":"stream: started","id":"uk20a103"}
+{"time":"2025-12-30T15:42:19.971351372+08:00","level":"INFO","msg":"sender: started","stream_id":"uk20a103"}
+{"time":"2025-12-30T15:42:19.97135414+08:00","level":"INFO","msg":"writer: started","stream_id":"uk20a103"}
+{"time":"2025-12-30T15:45:06.652246603+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T15:45:07.464206734+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T15:45:07.471165433+08:00","level":"INFO","msg":"stream: closing","id":"uk20a103"}
+{"time":"2025-12-30T15:45:07.471189255+08:00","level":"INFO","msg":"handler: closed","stream_id":"uk20a103"}
+{"time":"2025-12-30T15:45:07.471323679+08:00","level":"INFO","msg":"sender: closed","stream_id":"uk20a103"}
+{"time":"2025-12-30T15:45:07.471337584+08:00","level":"INFO","msg":"stream: closed","id":"uk20a103"}

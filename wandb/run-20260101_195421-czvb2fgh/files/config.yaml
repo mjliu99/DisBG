@@ -1,0 +1,24 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            l1tnwd58a0aup0xwozn6en1uoh8airbb:
+                email: mjliujade@gmail.com
+                executable: /root/miniconda3/envs/disbg/bin/python
+                host: autodl-container-9b594ca734-9105cd32
+                os: Linux-5.15.0-78-generic-x86_64-with-glibc2.17
+                program: <stdin>
+                python: CPython 3.8.20
+                root: /root/autodl-tmp/DisBG-Jade
+                startedAt: "2026-01-01T11:54:21.120857Z"
+                writerId: l1tnwd58a0aup0xwozn6en1uoh8airbb
+        m: []
+        python_version: 3.8.20
+        t:
+            "3":
+                - 2
+                - 13
+            "4": 3.8.20
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64

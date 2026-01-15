@@ -1,0 +1,12 @@
+{"time":"2025-12-30T09:22:01.768703175+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-30T09:22:02.652227479+08:00","level":"INFO","msg":"stream: created new stream","id":"c2kevsad"}
+{"time":"2025-12-30T09:22:02.652353142+08:00","level":"INFO","msg":"handler: started","stream_id":"c2kevsad"}
+{"time":"2025-12-30T09:22:02.652535653+08:00","level":"INFO","msg":"stream: started","id":"c2kevsad"}
+{"time":"2025-12-30T09:22:02.652565782+08:00","level":"INFO","msg":"sender: started","stream_id":"c2kevsad"}
+{"time":"2025-12-30T09:22:02.652595522+08:00","level":"INFO","msg":"writer: started","stream_id":"c2kevsad"}
+{"time":"2025-12-30T09:22:52.693960565+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-30T09:22:53.460267726+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-30T09:22:53.469732118+08:00","level":"INFO","msg":"stream: closing","id":"c2kevsad"}
+{"time":"2025-12-30T09:22:53.46976161+08:00","level":"INFO","msg":"handler: closed","stream_id":"c2kevsad"}
+{"time":"2025-12-30T09:22:53.469902843+08:00","level":"INFO","msg":"sender: closed","stream_id":"c2kevsad"}
+{"time":"2025-12-30T09:22:53.469914676+08:00","level":"INFO","msg":"stream: closed","id":"c2kevsad"}
