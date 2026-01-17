@@ -92,6 +92,7 @@ python visualize_subgraphs_aal116.py \
   --dataset ADHD \
   --split test \
   --avg --diff \
+  --ckpt ./results/ckpt_best_fold_4.pt \
   --topk 50 \
   --max_batches 999999 \
   --save_npz \
@@ -106,6 +107,7 @@ Group-level:
 python visualize_matrices_aal116.py \
   --dataset ADHD \
   --split test \
+  --ckpt ./results/ckpt_best_fold_4.pt \
   --group \
   --max_batches 999999 \
   --export_topk_edges 50
@@ -116,23 +118,26 @@ Individual-level:
 python visualize_matrices_aal116.py \
   --dataset ADHD \
   --split test \
+  --ckpt ./results/ckpt_best_fold_4.pt \
   --pair \
   --max_batches 999999 \
   --export_topk_edges 50
 ```
+
 
 Sparse Visualization:
 ```bash
 python visualize_matrices_aal116.py \
   --dataset ADHD \
   --split test \
+  --ckpt ./results/ckpt_best_fold_4.pt \
   --group \
   --topk_matrix 50 \
   --export_topk_edges 50
 ```
 
 ## 9. Full CLI Reference (All Arguments)
-
+```bash
 # -------------------------
 
 # Basics / I/O
@@ -428,7 +433,7 @@ parser.add_argument("--wandb_mode", type=str, default=None,
 help="W&B mode (e.g., online/offline/disabled)")
 
 ---
-
+```
 ## 10. Example Experiment Run (1*5fold)
 
 ```bash
